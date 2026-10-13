@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>AROSMINES | Organic Health Products & Nutrition — Pakistan</title>
+  <meta name="description" content="Discover AROSMINES — premium handcrafted nutrition blends. Bulky Sips (300 g) Rs. 2,500 and Talbina Oats (300 g) Rs. 2,150. Delivery across Pakistan.">
+  
+  <!-- Favicon / Brand Touch Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23064e3b'/><path d='M50 20 C35 35 25 55 35 75 C45 80 65 80 75 65 C85 50 70 30 50 20 Z' fill='%23f59e0b'/><path d='M45 35 C50 50 52 65 50 75' stroke='%23064e3b' stroke-width='4' stroke-linecap='round'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit for luxury organic look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Outfit"', 'sans-serif'],
+          },
+          colors: {
+            emerald: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              200: '#bbf7d0',
+              300: '#86efac',
+              400: '#4ade80',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#064e3b',
+              950: '#022c22',
+            },
+            amber: {
+              50: '#fffbeb',
+              100: '#fef3c7',
+              200: '#fde68a',
+              300: '#fcd34d',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+              800: '#92400e',
+              900: '#78350f',
+            },
+            warm: {
+              50: '#fbfaf6',
+              100: '#f6f3eb',
+              200: '#ede7da',
+              300: '#ded5c1',
+              400: '#cebe9f',
+              800: '#4a4031',
+              900: '#2d261c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #fbfaf6;
+      color: #1f2937;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    h1, h2, h3, h4, .font-heading {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero-pattern {
+      background-color: #064e3b;
+      background-image: radial-gradient(#065f46 1.5px, transparent 1.5px), radial-gradient(#047857 1.5px, #064e3b 1.5px);
+      background-size: 60px 60px;
+      background-position: 0 0, 30px 30px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1ede3;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #065f46;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #064e3b;
+    }
+
+    .drawer-backdrop {
+      transition: opacity 0.3s ease-in-out;
+    }
+    .drawer-content {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+  </style>
+</head>
+<body class="bg-warm-50 text-stone-800 flex flex-col min-h-screen relative antialiased selection:bg-amber-200 selection:text-emerald-950">
+
+  <!-- ================================================== -->
+  <!-- A. ANNOUNCEMENT BAR                                -->
+  <!-- ================================================== -->
+  <aside aria-label="Store Announcement" class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-emerald-950 text-amber-100 text-xs sm:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-md border-b border-emerald-800/60">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 text-center">
+      <div class="flex items-center gap-2 font-medium tracking-wide">
+        <span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+        <span class="font-bold tracking-wider">AROSMINES</span>
+        <span>&bull; NATURAL GOODNESS &bull; DELIVERY ACROSS PAKISTAN</span>
+      </div>
+      <div class="flex items-center gap-1.5 font-bold text-amber-300 bg-emerald-800/80 px-3.5 py-0.5 rounded-full text-xs">
+        <i data-lucide="truck" class="w-3.5 h-3.5"></i>
+        <span>FREE DELIVERY ON ORDERS OF Rs. 5,000 OR MORE</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================================================== -->
+  <!-- B. HEADER & MAIN NAVIGATION                         -->
+  <!-- ================================================== -->
+  <header class="bg-white/95 backdrop-blur-md sticky top-[41px] sm:top-[37px] z-40 border-b border-stone-200 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo & Brand Name: Prominently AROSMINES -->
+        <a href="#home" class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-emerald-700 rounded-lg p-1">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-800 via-emerald-900 to-emerald-950 flex items-center justify-center shadow-md shadow-emerald-900/20 group-hover:scale-105 transition-transform duration-200 border border-emerald-700/50">
+            <svg class="w-6 h-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.5 2 2 6.5 2 12c0 4 2.5 7.5 6 9 1-2 1.5-4 1.5-7 0-4 2.5-6.5 6.5-6.5 2 0 4 .5 6 1.5-1.5-5.5-5.5-7-10-7z" fill="currentColor" fill-opacity="0.2"/>
+              <path d="M12 2c3.5 2 6 5.5 6 9.5 0 4-2 7.5-6 10.5"/>
+              <path d="M7 14c2-1 4-1 6 0"/>
+            </svg>
+          </div>
+          <div>
+            <span class="block font-heading font-extrabold text-2xl tracking-wider text-emerald-950 leading-none group-hover:text-emerald-800 transition-colors uppercase">
+              AROSMINES
+            </span>
+            <span class="block text-[11px] font-bold tracking-wider uppercase text-amber-700 mt-1">
+              Organic Health &amp; Nutrition
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-700" aria-label="Primary Navigation">
+          <a href="#home" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">Home</a>
+          <a href="#products" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">Products</a>
+          <a href="#ingredients-section" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">Ingredients</a>
+          <a href="#how-to-enjoy" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">How to Enjoy</a>
+          <a href="#delivery-info" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">Delivery &amp; Payment</a>
+          <a href="#faq" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">FAQs</a>
+          <a href="#contact" class="hover:text-emerald-800 transition-colors py-1 border-b-2 border-transparent hover:border-emerald-700">Contact</a>
+        </nav>
+
+        <!-- Header Actions: WhatsApp Consultation & Cart Trigger -->
+        <div class="flex items-center gap-3">
+          
+          <!-- Order / Inquire on WhatsApp Button (Triggers 3-Questions Modal) -->
+          <button type="button" 
+                  onclick="openWhatsAppQuestionModal('general')"
+                  class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold rounded-xl bg-emerald-50 text-emerald-950 border border-emerald-300 hover:bg-emerald-100 transition shadow-sm">
+            <i data-lucide="message-circle" class="w-4 h-4 text-emerald-700"></i>
+            <span>Order on WhatsApp</span>
+          </button>
+
+          <!-- Cart Drawer Trigger Button -->
+          <button id="openCartBtn" 
+                  aria-label="Open Shopping Cart" 
+                  class="relative flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-emerald-900 hover:bg-emerald-800 text-white font-medium text-sm shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-emerald-700 focus:ring-offset-2">
+            <div class="relative">
+              <i data-lucide="shopping-bag" class="w-5 h-5 text-amber-300"></i>
+              <span id="cartBadgeCount" class="absolute -top-2 -right-2 bg-amber-500 text-emerald-950 font-extrabold text-[11px] w-5 h-5 rounded-full flex items-center justify-center shadow">
+                0
+              </span>
+            </div>
+            <span class="hidden sm:inline font-semibold">Cart</span>
+            <span id="cartHeaderTotal" class="hidden sm:inline text-xs text-amber-200 font-bold bg-emerald-950/60 px-2 py-0.5 rounded-md">
+              Rs. 0
+            </span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobileMenuBtn" 
+                  aria-label="Toggle mobile menu" 
+                  class="md:hidden p-2 rounded-lg text-stone-700 hover:text-emerald-900 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-emerald-700">
+            <i data-lucide="menu" id="menuOpenIcon" class="w-6 h-6"></i>
+            <i data-lucide="x" id="menuCloseIcon" class="w-6 h-6 hidden"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-stone-200 bg-white px-4 pt-4 pb-6 space-y-3 shadow-xl">
+      <a href="#home" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Home</a>
+      <a href="#products" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Our Products (Bulky Sips &amp; Talbina Oats)</a>
+      <a href="#ingredients-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Ingredients &amp; Allergens</a>
+      <a href="#why-choose" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Why Choose AROSMINES</a>
+      <a href="#how-to-enjoy" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">How to Enjoy</a>
+      <a href="#delivery-info" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Delivery &amp; Payment</a>
+      <a href="#faq" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Frequently Asked Questions</a>
+      <a href="#contact" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-stone-800 hover:bg-emerald-50 hover:text-emerald-900">Contact &amp; Location</a>
+      
+      <div class="pt-3 border-t border-stone-200">
+        <button type="button" 
+                onclick="openWhatsAppQuestionModal('general')"
+                class="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-emerald-800 text-white font-bold text-sm shadow">
+          <i data-lucide="message-circle" class="w-4 h-4 text-amber-300"></i>
+          <span>Order on WhatsApp (0309-5916469)</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home" class="flex-grow">
+    <!-- ================================================== -->
+    <!-- C. HERO SECTION                                    -->
+    <!-- ================================================== -->
+    <section class="relative hero-pattern text-white overflow-hidden py-16 sm:py-24 lg:py-28 border-b border-emerald-950">
+      <div class="absolute -top-40 -right-40 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Hero Copy -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-800/90 border border-emerald-600/50 text-amber-300 text-xs sm:text-sm font-bold tracking-wide shadow-inner">
+              <i data-lucide="sparkles" class="w-4 h-4 text-amber-400"></i>
+              <span>AROSMINES &bull; Crafted in Pind Dadan Khan, District Jhelum</span>
+            </div>
+
+            <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+              Goodness from Nature, <br class="hidden sm:inline">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400">
+                Nourishment for Your Family
+              </span>
+            </h1>
+
+            <p class="text-emerald-100 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+              Discover AROSMINES — thoughtfully prepared nutrition blends inspired by tradition and made with carefully selected wholesome ingredients for everyday nourishment.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+              <a href="#products" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-emerald-950 font-extrabold text-base shadow-lg shadow-amber-500/20 hover:shadow-xl hover:-translate-y-0.5 transition-all">
+                <span>Shop Our Products</span>
+                <i data-lucide="arrow-down" class="w-4 h-4"></i>
+              </a>
+              
+              <!-- Hero WhatsApp Button -->
+              <button type="button" 
+                      onclick="openWhatsAppQuestionModal('general')"
+                      class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-emerald-800/90 hover:bg-emerald-700 text-white font-bold text-base border border-emerald-600/70 shadow hover:-translate-y-0.5 transition-all">
+                <i data-lucide="message-circle" class="w-5 h-5 text-amber-300"></i>
+                <span>Order on WhatsApp</span>
+              </button>
+            </div>
+
+            <!-- 3 Small Brand Highlights -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-emerald-800/80 text-left">
+              <div class="flex items-center gap-3 bg-emerald-950/40 p-3 rounded-xl border border-emerald-800/40">
+                <div class="w-9 h-9 rounded-lg bg-emerald-800/80 flex items-center justify-center shrink-0 text-amber-300">
+                  <i data-lucide="leaf" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-white">Selected Ingredients</h4>
+                  <p class="text-[11px] text-emerald-200">Wholesome grains, nuts &amp; seeds</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3 bg-emerald-950/40 p-3 rounded-xl border border-emerald-800/40">
+                <div class="w-9 h-9 rounded-lg bg-emerald-800/80 flex items-center justify-center shrink-0 text-amber-300">
+                  <i data-lucide="heart" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-white">Tradition-Inspired</h4>
+                  <p class="text-[11px] text-emerald-200">Time-tested everyday blends</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3 bg-emerald-950/40 p-3 rounded-xl border border-emerald-800/40">
+                <div class="w-9 h-9 rounded-lg bg-emerald-800/80 flex items-center justify-center shrink-0 text-amber-300">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-white">Nationwide Delivery</h4>
+                  <p class="text-[11px] text-emerald-200">Across Pakistan to your doorstep</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Visual Showcase with Updated 300g Blends -->
+          <div class="lg:col-span-5">
+            <div class="relative max-w-md mx-auto">
+              <div class="absolute -inset-1.5 bg-gradient-to-tr from-amber-400 to-emerald-500 rounded-3xl blur opacity-30"></div>
+              
+              <div class="relative bg-gradient-to-b from-stone-900/90 to-emerald-950/95 border border-emerald-700/60 rounded-2xl p-6 sm:p-8 shadow-2xl backdrop-blur-sm text-stone-100">
+                <div class="flex items-center justify-between border-b border-emerald-800/60 pb-4 mb-6">
+                  <div>
+                    <span class="text-xs uppercase font-extrabold tracking-wider text-amber-400">AROSMINES BLENDS</span>
+                    <h3 class="font-heading font-extrabold text-lg text-white">Organic Nutrition</h3>
+                  </div>
+                  <span class="px-2.5 py-1 rounded-md bg-emerald-800 text-amber-300 text-xs font-bold">100% Wholesome</span>
+                </div>
+
+                <div class="space-y-4">
+                  <!-- Bulky Sips Preview Card -->
+                <div class="bg-emerald-900/50 hover:bg-emerald-900/70 transition p-4 rounded-2xl border border-emerald-700/60 flex items-center gap-4 group shadow-md">
+                  <img src="images/bulky-sips.svg" onerror="this.src='images/bulky-sips.png';this.onerror=null;" 
+                       alt="AROSMINES Bulky Sips (300 g)" 
+                       class="w-16 h-16 rounded-xl object-cover border border-amber-400/50 shrink-0 shadow-md">
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <h4 class="font-heading font-extrabold text-white text-base">Bulky Sips (300 g)</h4>
+                      <span class="text-sm font-extrabold text-amber-300">Rs. 2,500</span>
+                    </div>
+                    <p class="text-xs text-emerald-200 line-clamp-1">Calorie-dense dry fruits, grains &amp; seeds</p>
+                    <button type="button" 
+                            onclick="openWhatsAppQuestionModal('bulkysips')" 
+                            class="inline-flex items-center gap-1.5 text-xs font-extrabold text-amber-300 hover:text-amber-200 mt-1 bg-emerald-950/70 hover:bg-emerald-950 px-2.5 py-1 rounded-md border border-emerald-700/60 shadow-xs">
+                      <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                      <span>Order on WhatsApp</span>
+                    </button>
+                  </div>
+                </div>
+                <!-- Talbina Oats Preview Card -->
+                <div class="bg-emerald-900/50 hover:bg-emerald-900/70 transition p-4 rounded-2xl border border-emerald-700/60 flex items-center gap-4 group shadow-md">
+                  <img src="images/talbina-oats.svg" onerror="this.src='images/talbina-oats.png';this.onerror=null;" 
+                       alt="AROSMINES Talbina Oats (300 g)" 
+                       class="w-16 h-16 rounded-xl object-cover border border-amber-400/50 shrink-0 shadow-md">
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <h4 class="font-heading font-extrabold text-white text-base">Talbina Oats (300 g)</h4>
+                      <span class="text-sm font-extrabold text-amber-300">Rs. 2,150</span>
+                    </div>
+                    <p class="text-xs text-emerald-200 line-clamp-1">Roasted barley, oats, phool makhana &amp; seeds</p>
+                    <button type="button" 
+                            onclick="openWhatsAppQuestionModal('talbina')" 
+                            class="inline-flex items-center gap-1.5 text-xs font-extrabold text-amber-300 hover:text-amber-200 mt-1 bg-emerald-950/70 hover:bg-emerald-950 px-2.5 py-1 rounded-md border border-emerald-700/60 shadow-xs">
+                      <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                      <span>Order on WhatsApp</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Shipping Notice -->
+                <div class="mt-6 pt-4 border-t border-emerald-800/60 flex items-center justify-between text-xs text-emerald-200">
+                  <span class="flex items-center gap-1.5">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-amber-400"></i>
+                    Clean &amp; Transparent
+                  </span>
+                  <span class="font-bold text-amber-300">COD &bull; WhatsApp Order</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- D. WHY CHOOSE AROSMINES                           -->
+    <!-- ================================================== -->
+    <section id="why-choose" class="py-16 sm:py-20 bg-warm-100/70 border-b border-stone-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-100/80 px-3.5 py-1 rounded-full border border-amber-200">
+            Our Commitment
+          </span>
+          <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            Why Choose AROSMINES?
+          </h2>
+          <p class="text-stone-600 text-sm sm:text-base mt-2">
+            Every blend is prepared with care, honoring natural wholesome foods and honest preparation.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white rounded-2xl p-6 sm:p-7 border border-stone-200/90 shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-800 group-hover:bg-emerald-800 group-hover:text-amber-300 transition-colors flex items-center justify-center mb-5 border border-emerald-100">
+                <i data-lucide="sprout" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-lg text-emerald-950 mb-2">Nature-Inspired Ingredients</h3>
+              <p class="text-stone-600 text-sm leading-relaxed">
+                Made with carefully selected grains, nuts, seeds, and other wholesome ingredients.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-stone-100 text-[11px] font-bold text-emerald-800 uppercase tracking-wider">
+              100% Wholesome Selection
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-7 border border-stone-200/90 shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 group-hover:bg-amber-600 group-hover:text-white transition-colors flex items-center justify-center mb-5 border border-amber-100">
+                <i data-lucide="book-open" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-lg text-emerald-950 mb-2">Tradition-Inspired Nutrition</h3>
+              <p class="text-stone-600 text-sm leading-relaxed">
+                Inspired by traditional food practices and the goodness of familiar ingredients.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-stone-100 text-[11px] font-bold text-amber-700 uppercase tracking-wider">
+              Time-Honored Recipes
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-7 border border-stone-200/90 shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-800 group-hover:bg-emerald-800 group-hover:text-amber-300 transition-colors flex items-center justify-center mb-5 border border-emerald-100">
+                <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-lg text-emerald-950 mb-2">Quality-Focused Preparation</h3>
+              <p class="text-stone-600 text-sm leading-relaxed">
+                We emphasize ingredient transparency, careful preparation, and clear allergen information.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-stone-100 text-[11px] font-bold text-emerald-800 uppercase tracking-wider">
+              Clear &amp; Honest Labels
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-7 border border-stone-200/90 shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 group-hover:bg-amber-600 group-hover:text-white transition-colors flex items-center justify-center mb-5 border border-amber-100">
+                <i data-lucide="truck" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-lg text-emerald-950 mb-2">Convenient Delivery</h3>
+              <p class="text-stone-600 text-sm leading-relaxed">
+                Order from anywhere in Pakistan with Cash on Delivery or Bank Transfer, subject to availability.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-stone-100 text-[11px] font-bold text-amber-700 uppercase tracking-wider">
+              Free Over Rs. 5,000
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- E. OUR PRODUCTS SECTION                            -->
+    <!-- EXACTLY TWO PRODUCTS: BULKY SIPS & TALBINA OATS    -->
+    <!-- ================================================== -->
+    <section id="products" class="py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 px-4 py-1.5 rounded-full border border-emerald-300">
+            Fresh Handcrafted Blends
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            Our Nutrition Products
+          </h2>
+          <p class="text-stone-600 text-base mt-3">
+            Handcrafted with dry fruits, wholesome grains, seeds, and aromatic botanicals. Net weight 300 g each.
+          </p>
+        </div>
+
+        <!-- Products Grid: Exactly the Two Products -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+          
+          <!-- ========================================== -->
+          <!-- PRODUCT ONE: BULKY SIPS (300 g) - Rs. 2,500 -->
+          <!-- ========================================== -->
+          <article id="bulkysips-card" class="bg-white rounded-3xl border-2 border-stone-200/90 hover:border-amber-500/80 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden relative group">
+            
+            <!-- High-Quality Product Picture Showcase -->
+            <div class="relative w-full aspect-[16/10] bg-stone-950 overflow-hidden border-b border-stone-200">
+              <img id="bulkysips-img" 
+                   src="images/bulky-sips.svg" onerror="this.src='images/bulky-sips.png';this.onerror=null;" 
+                   alt="AROSMINES Bulky Sips (300 g) - Rs. 2,500" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 bg-emerald-950/90 backdrop-blur-md text-amber-300 border border-amber-400/50 px-3.5 py-1 rounded-full text-xs font-extrabold flex items-center gap-1.5 shadow-md">
+                <i data-lucide="shield-check" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>AROSMINES</span>
+                <span>&bull;</span>
+                <span class="text-white">300 g</span>
+              </div>
+              <div class="absolute top-3 right-3 bg-amber-500 text-emerald-950 font-extrabold px-3.5 py-1.5 rounded-full text-sm shadow-md border border-amber-300 flex items-center gap-1">
+                <span>Rs. 2,500</span>
+              </div>
+              <div class="absolute bottom-2.5 left-3 bg-stone-950/80 backdrop-blur-sm text-stone-200 text-[11px] font-semibold px-2.5 py-0.5 rounded-md border border-stone-700/60 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>Bulky Sips (300 g) &bull; Rs. 2,500</span>
+              </div>
+            </div>
+
+            <!-- Top Product Header & Visual Representation -->
+            <div class="bg-gradient-to-r from-stone-900 via-amber-950 to-emerald-950 p-6 sm:p-8 text-white relative overflow-hidden">
+              <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl"></div>
+              
+              <div class="flex items-start justify-between gap-4 relative z-10">
+                <div>
+                  <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-extrabold tracking-wide border border-amber-400/40 mb-3">
+                    <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+                    <span>Calorie-Dense Formulation</span>
+                  </span>
+                  <h3 class="font-heading text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                    Bulky Sips (300 g)
+                  </h3>
+                  <span class="text-amber-200 text-xs font-semibold block mt-0.5">Weight Gain Blend &bull; Net Weight 300 g</span>
+                </div>
+
+                <!-- Product Visual Graphic -->
+                <div class="w-18 h-18 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-400/30 to-amber-600/20 border-2 border-amber-400/50 flex flex-col items-center justify-center shrink-0 shadow-inner">
+                  <svg class="w-10 h-10 text-amber-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="8"/>
+                    <path d="M12 4v16m-8-8h16"/>
+                  </svg>
+                  <span class="text-[10px] font-extrabold text-amber-200 mt-0.5">300 g</span>
+                </div>
+              </div>
+
+              <!-- Short Description -->
+              <p class="text-amber-100 text-sm sm:text-base mt-4 leading-relaxed font-normal relative z-10">
+                "A rich, calorie-dense formulation crafted with dry fruits, wholesome grains, and seeds to support healthy weight gain in growing children and muscle rebuilding after exercise."
+              </p>
+
+              <!-- Quick Ingredient Highlights -->
+              <div class="flex flex-wrap gap-2 mt-5 text-[11px] font-semibold text-amber-200">
+                <span class="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">Almonds &amp; Cashews</span>
+                <span class="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">Pistachios &amp; Melon Seeds</span>
+                <span class="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">Dry-Roasted Suji &amp; Oats</span>
+                <span class="bg-stone-800/80 px-2.5 py-1 rounded-md border border-stone-700/60">Dates &amp; Raisins</span>
+              </div>
+            </div>
+
+            <!-- Card Body & Action Controls -->
+            <div class="p-6 sm:p-8 flex-grow flex flex-col justify-between space-y-6">
+              
+              <!-- CLEAR MOBILE-FIRST PRICE & QUANTITY ROW -->
+              <div class="bg-amber-50/70 p-4 sm:p-5 rounded-2xl border-2 border-amber-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span class="text-xs text-stone-500 font-bold uppercase tracking-wider block">Price:</span>
+                  <div class="flex items-baseline gap-2">
+                    <span id="bulkysipsPriceDisplay" class="font-heading font-extrabold text-3xl sm:text-4xl text-emerald-950">
+                      Rs. 2,500
+                    </span>
+                    <span class="text-xs font-bold text-stone-600 bg-white px-2 py-0.5 rounded-md border border-stone-300">
+                      per 300 g pack
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Quantity Modifier -->
+                <div class="flex items-center gap-3">
+                  <span class="text-xs font-bold text-stone-700 uppercase">Quantity:</span>
+                  <div class="flex items-center rounded-xl bg-white border-2 border-stone-300 p-1 shadow-sm">
+                    <button type="button" 
+                            onclick="changeProductQty('bulkysips', -1)"
+                            aria-label="Decrease Bulky Sips quantity" 
+                            class="w-9 h-9 rounded-lg flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition">
+                      <i data-lucide="minus" class="w-4 h-4"></i>
+                    </button>
+                    <span id="bulkysipsQtyDisplay" class="w-10 text-center font-extrabold text-stone-950 text-base">1</span>
+                    <button type="button" 
+                            onclick="changeProductQty('bulkysips', 1)"
+                            aria-label="Increase Bulky Sips quantity" 
+                            class="w-9 h-9 rounded-lg flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition">
+                      <i data-lucide="plus" class="w-4 h-4"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ACTION BUTTONS: Order on WhatsApp & Add to Cart -->
+              <div class="space-y-3">
+                
+                <!-- PRIMARY WHATSAPP BUTTON (With 3-Questions Selector) -->
+                <button type="button" 
+                        onclick="openWhatsAppQuestionModal('bulkysips')"
+                        class="w-full flex items-center justify-center gap-2.5 py-4 px-6 rounded-xl bg-emerald-800 hover:bg-emerald-700 active:scale-[0.99] text-white font-extrabold text-base shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                  <i data-lucide="message-circle" class="w-5 h-5 text-amber-300"></i>
+                  <span>Order on WhatsApp</span>
+                </button>
+
+                <!-- ADD TO CART BUTTON -->
+                <button type="button" 
+                        id="bulkysipsAddToCartBtn"
+                        onclick="addProductToCart('bulkysips')"
+                        class="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-amber-600 hover:bg-amber-500 active:scale-[0.99] text-white font-bold text-sm shadow transition-all focus:outline-none focus:ring-2 focus:ring-amber-500">
+                  <i data-lucide="shopping-cart" class="w-4 h-4 text-amber-100"></i>
+                  <span>Add to Shopping Cart</span>
+                </button>
+
+                <!-- DETAILS BUTTONS -->
+                <div class="flex gap-2 pt-1">
+                  <button type="button" 
+                          onclick="openIngredientsModal('bulkysips')"
+                          class="flex-1 inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-xs border border-stone-200 transition">
+                    <i data-lucide="list" class="w-4 h-4 text-amber-700"></i>
+                    <span>View Ingredients (13 Items)</span>
+                  </button>
+
+                  <a href="#how-to-enjoy" 
+                     class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-stone-50 hover:bg-stone-100 text-stone-700 font-semibold text-xs border border-stone-200 transition">
+                    <i data-lucide="coffee" class="w-4 h-4 text-emerald-700"></i>
+                    <span>Serving Ideas</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Allergen Information Box -->
+              <div class="p-3.5 rounded-xl bg-amber-50/80 border border-amber-200/90 text-xs text-amber-900 flex items-start gap-2.5">
+                <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-700 shrink-0 mt-0.5"></i>
+                <div>
+                  <strong class="font-bold block text-amber-950 mb-0.5">Allergen Information:</strong>
+                  <span>Contains tree nuts (almonds, cashews, and pistachios). Produced in a facility that handles wheat/gluten.</span>
+                </div>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- ========================================== -->
+          <!-- PRODUCT TWO: TALBINA OATS (300 g) - Rs. 2,150 -->
+          <!-- ========================================== -->
+          <article id="talbina-card" class="bg-white rounded-3xl border-2 border-stone-200/90 hover:border-emerald-600/80 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden relative group">
+            
+            <!-- High-Quality Product Picture Showcase -->
+            <div class="relative w-full aspect-[16/10] bg-stone-950 overflow-hidden border-b border-stone-200">
+              <img id="talbina-img" 
+                   src="images/talbina-oats.svg" onerror="this.src='images/talbina-oats.png';this.onerror=null;" 
+                   alt="AROSMINES Talbina Oats (300 g) - Rs. 2,150" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 bg-emerald-950/90 backdrop-blur-md text-amber-300 border border-amber-400/50 px-3.5 py-1 rounded-full text-xs font-extrabold flex items-center gap-1.5 shadow-md">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>AROSMINES</span>
+                <span>&bull;</span>
+                <span class="text-white">300 g</span>
+              </div>
+              <div class="absolute top-3 right-3 bg-emerald-700 text-amber-300 font-extrabold px-3.5 py-1.5 rounded-full text-sm shadow-md border border-amber-400/50 flex items-center gap-1">
+                <span>Rs. 2,150</span>
+              </div>
+              <div class="absolute bottom-2.5 left-3 bg-stone-950/80 backdrop-blur-sm text-stone-200 text-[11px] font-semibold px-2.5 py-0.5 rounded-md border border-stone-700/60 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>Talbina Oats (300 g) &bull; Rs. 2,150</span>
+              </div>
+            </div>
+
+            <!-- Top Product Header & Visual Representation -->
+            <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-emerald-950 p-6 sm:p-8 text-white relative overflow-hidden">
+              <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl"></div>
+              
+              <div class="flex items-start justify-between gap-4 relative z-10">
+                <div>
+                  <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-extrabold tracking-wide border border-amber-400/40 mb-3">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                    <span>Tradition-Inspired Blend</span>
+                  </span>
+                  <h3 class="font-heading text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                    Talbina Oats (300 g)
+                  </h3>
+                  <span class="text-amber-200 text-xs font-semibold block mt-0.5">Wholesome Blend &bull; Net Weight 300 g</span>
+                </div>
+
+                <!-- Product Visual Graphic -->
+                <div class="w-18 h-18 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-400/30 to-emerald-600/30 border-2 border-amber-400/50 flex flex-col items-center justify-center shrink-0 shadow-inner">
+                  <svg class="w-10 h-10 text-amber-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M7 20l4-16m2 16l4-16M5 9c2-1 4-1 6 0m2 0c2-1 4-1 6 0M4 14c2-1 4-1 6 0m2 0c2-1 4-1 6 0"/>
+                  </svg>
+                  <span class="text-[10px] font-extrabold text-amber-200 mt-0.5">300 g</span>
+                </div>
+              </div>
+
+              <!-- Short Description -->
+              <p class="text-emerald-100 text-sm sm:text-base mt-4 leading-relaxed font-normal relative z-10">
+                "A wholesome blend of roasted barley, oats, and nutrient-rich seeds, inspired by tradition and crafted for your better health."
+              </p>
+
+              <!-- Quick Ingredient Highlights -->
+              <div class="flex flex-wrap gap-2 mt-5 text-[11px] font-semibold text-amber-200">
+                <span class="bg-emerald-800/80 px-2.5 py-1 rounded-md border border-emerald-700/60">Roasted Barley &amp; Oats</span>
+                <span class="bg-emerald-800/80 px-2.5 py-1 rounded-md border border-emerald-700/60">Phool Makhana</span>
+                <span class="bg-emerald-800/80 px-2.5 py-1 rounded-md border border-emerald-700/60">Soft Dates &amp; Almonds</span>
+                <span class="bg-emerald-800/80 px-2.5 py-1 rounded-md border border-emerald-700/60">Chia &amp; Flax Seeds</span>
+              </div>
+            </div>
+
+            <!-- Card Body & Action Controls -->
+            <div class="p-6 sm:p-8 flex-grow flex flex-col justify-between space-y-6">
+              
+              <!-- CLEAR MOBILE-FIRST PRICE & QUANTITY ROW -->
+              <div class="bg-emerald-50/70 p-4 sm:p-5 rounded-2xl border-2 border-emerald-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span class="text-xs text-stone-500 font-bold uppercase tracking-wider block">Price:</span>
+                  <div class="flex items-baseline gap-2">
+                    <span id="talbinaPriceDisplay" class="font-heading font-extrabold text-3xl sm:text-4xl text-emerald-950">
+                      Rs. 2,150
+                    </span>
+                    <span class="text-xs font-bold text-stone-600 bg-white px-2 py-0.5 rounded-md border border-stone-300">
+                      per 300 g pack
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Quantity Modifier -->
+                <div class="flex items-center gap-3">
+                  <span class="text-xs font-bold text-stone-700 uppercase">Quantity:</span>
+                  <div class="flex items-center rounded-xl bg-white border-2 border-stone-300 p-1 shadow-sm">
+                    <button type="button" 
+                            onclick="changeProductQty('talbina', -1)"
+                            aria-label="Decrease Talbina quantity" 
+                            class="w-9 h-9 rounded-lg flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition">
+                      <i data-lucide="minus" class="w-4 h-4"></i>
+                    </button>
+                    <span id="talbinaQtyDisplay" class="w-10 text-center font-extrabold text-stone-950 text-base">1</span>
+                    <button type="button" 
+                            onclick="changeProductQty('talbina', 1)"
+                            aria-label="Increase Talbina quantity" 
+                            class="w-9 h-9 rounded-lg flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition">
+                      <i data-lucide="plus" class="w-4 h-4"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ACTION BUTTONS: Order on WhatsApp & Add to Cart -->
+              <div class="space-y-3">
+                
+                <!-- PRIMARY WHATSAPP BUTTON (With 3-Questions Selector) -->
+                <button type="button" 
+                        onclick="openWhatsAppQuestionModal('talbina')"
+                        class="w-full flex items-center justify-center gap-2.5 py-4 px-6 rounded-xl bg-emerald-800 hover:bg-emerald-700 active:scale-[0.99] text-white font-extrabold text-base shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                  <i data-lucide="message-circle" class="w-5 h-5 text-amber-300"></i>
+                  <span>Order on WhatsApp</span>
+                </button>
+
+                <!-- ADD TO CART BUTTON -->
+                <button type="button" 
+                        id="talbinaAddToCartBtn"
+                        onclick="addProductToCart('talbina')"
+                        class="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-emerald-950 hover:bg-emerald-900 active:scale-[0.99] text-white font-bold text-sm shadow transition-all focus:outline-none focus:ring-2 focus:ring-emerald-700">
+                  <i data-lucide="shopping-cart" class="w-4 h-4 text-amber-300"></i>
+                  <span>Add to Shopping Cart</span>
+                </button>
+
+                <!-- DETAILS BUTTONS -->
+                <div class="flex gap-2 pt-1">
+                  <button type="button" 
+                          onclick="openIngredientsModal('talbina')"
+                          class="flex-1 inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-xs border border-stone-200 transition">
+                    <i data-lucide="list" class="w-4 h-4 text-emerald-800"></i>
+                    <span>View Ingredients (11 Items)</span>
+                  </button>
+
+                  <a href="#how-to-enjoy" 
+                     class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-stone-50 hover:bg-stone-100 text-stone-700 font-semibold text-xs border border-stone-200 transition">
+                    <i data-lucide="coffee" class="w-4 h-4 text-amber-600"></i>
+                    <span>Serving Ideas</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Allergen Information Box -->
+              <div class="p-3.5 rounded-xl bg-amber-50/80 border border-amber-200/90 text-xs text-amber-900 flex items-start gap-2.5">
+                <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-700 shrink-0 mt-0.5"></i>
+                <div>
+                  <strong class="font-bold block text-amber-950 mb-0.5">Allergen Information:</strong>
+                  <span>Contains tree nuts (almonds) and sesame. Produced in a facility that handles wheat/gluten.</span>
+                </div>
+              </div>
+
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- F. PRODUCT INGREDIENTS & ALLERGEN INFORMATION      -->
+    <!-- ================================================== -->
+    <section id="ingredients-section" class="py-16 sm:py-20 bg-warm-100/60 border-t border-b border-stone-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-800 bg-emerald-100/80 px-3.5 py-1 rounded-full border border-emerald-200">
+            Ingredient Transparency
+          </span>
+          <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            Complete Product Ingredients &amp; Allergen Details
+          </h2>
+          <p class="text-stone-600 text-sm sm:text-base mt-2">
+            Every single ingredient is openly declared. No artificial fillers, no hidden additives.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          
+          <!-- Bulky Sips Ingredients Card -->
+          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+            <div class="flex items-center justify-between pb-4 border-b border-stone-200 mb-6">
+              <div>
+                <span class="text-xs font-bold uppercase text-amber-700 tracking-wider">Weight Gain Blend</span>
+                <h3 class="font-heading font-extrabold text-xl text-emerald-950">Bulky Sips (300 g)</h3>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold">13 Wholesome Items</span>
+            </div>
+
+            <!-- Full 13 items -->
+            <h4 class="text-xs font-bold uppercase tracking-wider text-stone-500 mb-3">Full Ingredient List:</h4>
+            <ol class="space-y-2.5 text-sm text-stone-700 mb-6">
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">1</span><span>Roasted Rolled Oats</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">2</span><span>Dry-Roasted Suji / Semolina</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">3</span><span>Roasted Phool Makhana (Lotus Seeds)</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">4</span><span>Chopped Soft Dates</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">5</span><span>Chopped Raisins</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">6</span><span>Roasted Almonds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">7</span><span>Roasted Cashew Nuts</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">8</span><span>Char Magaz / Melon Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">9</span><span>Roasted Pistachios</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">10</span><span>Roasted Sunflower Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">11</span><span>Roasted Ground Flax Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">12</span><span>Green Cardamom Powder</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-amber-600 text-white text-xs font-bold flex items-center justify-center shrink-0">13</span><span>Fine Saunf / Fennel Powder</span></li>
+            </ol>
+
+            <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-amber-950">
+              <strong class="font-bold flex items-center gap-1.5 text-amber-900 mb-1">
+                <i data-lucide="alert-circle" class="w-4 h-4"></i>
+                Allergen Statement:
+              </strong>
+              <p>Contains tree nuts (almonds, cashews, and pistachios). Produced in a facility that handles wheat/gluten.</p>
+            </div>
+          </div>
+
+          <!-- Talbina Oats Ingredients Card -->
+          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+            <div class="flex items-center justify-between pb-4 border-b border-stone-200 mb-6">
+              <div>
+                <span class="text-xs font-bold uppercase text-amber-700 tracking-wider">Wholesome Blend</span>
+                <h3 class="font-heading font-extrabold text-xl text-emerald-950">Talbina Oats (300 g)</h3>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 text-xs font-bold">11 Wholesome Items</span>
+            </div>
+
+            <!-- Full 11 items -->
+            <h4 class="text-xs font-bold uppercase tracking-wider text-stone-500 mb-3">Full Ingredient List:</h4>
+            <ol class="space-y-2.5 text-sm text-stone-700 mb-6">
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">1</span><span>Roasted Rolled Oats &amp; Roasted Barley</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">2</span><span>Roasted Phool Makhana (Lotus Seeds)</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">3</span><span>Isabgol / Psyllium Husk</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">4</span><span>Chia Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">5</span><span>Roasted Ground Flax Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">6</span><span>Roasted Pumpkin Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">7</span><span>Chopped Soft Dates</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">8</span><span>Sesame Seeds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">9</span><span>Roasted Crushed Almonds</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">10</span><span>Green Cardamom Powder</span></li>
+              <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50/60"><span class="w-6 h-6 rounded-full bg-emerald-800 text-white text-xs font-bold flex items-center justify-center shrink-0">11</span><span>Fine Saunf / Fennel Powder</span></li>
+            </ol>
+
+            <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-amber-950">
+              <strong class="font-bold flex items-center gap-1.5 text-amber-900 mb-1">
+                <i data-lucide="alert-circle" class="w-4 h-4"></i>
+                Allergen Statement:
+              </strong>
+              <p>Contains tree nuts (almonds) and sesame. Produced in a facility that handles wheat/gluten.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- G. HOW TO ENJOY OUR PRODUCTS                       -->
+    <!-- ================================================== -->
+    <section id="how-to-enjoy" class="py-16 sm:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full border border-amber-200">
+            Serving Inspiration
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            How to Enjoy Our Blends
+          </h2>
+          <p class="text-stone-600 text-base mt-3">
+            Wholesome nourishment that fits seamlessly into your family's everyday kitchen rituals.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          
+          <!-- Bulky Sips Serving Card -->
+          <div class="bg-warm-50 rounded-3xl p-8 border border-stone-200/80 hover:border-amber-600/50 transition shadow-sm">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-14 h-14 rounded-2xl bg-amber-600 text-white flex items-center justify-center shrink-0 shadow-md">
+                <i data-lucide="activity" class="w-7 h-7"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase font-bold text-amber-800">For Active Days &amp; Growth</span>
+                <h3 class="font-heading font-extrabold text-2xl text-emerald-950">Bulky Sips Serving Ideas</h3>
+              </div>
+            </div>
+
+            <p class="text-stone-700 text-sm leading-relaxed mb-6 font-medium">
+              "Enjoy your Bulky Sips blend as part of a balanced diet and your preferred daily routine."
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-amber-600 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Wholesome Daily Beverage:</strong>
+                  Blend with fresh warm or cold milk for a rich, satisfying beverage for growing children.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-amber-600 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Smoothies &amp; Shakes:</strong>
+                  Whisk into your favorite fruit shake (such as banana or apple shake) for nutrient-dense daily intake.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-amber-600 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Post-Exercise Nourishment:</strong>
+                  A natural option to refuel and recharge alongside a well-balanced everyday diet.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Talbina Oats Serving Card -->
+          <div class="bg-warm-50 rounded-3xl p-8 border border-stone-200/80 hover:border-emerald-700/50 transition shadow-sm">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-14 h-14 rounded-2xl bg-emerald-900 text-amber-300 flex items-center justify-center shrink-0 shadow-md">
+                <i data-lucide="sun" class="w-7 h-7"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase font-bold text-emerald-800">For Everyday Comfort</span>
+                <h3 class="font-heading font-extrabold text-2xl text-emerald-950">Talbina Oats Serving Ideas</h3>
+              </div>
+            </div>
+
+            <p class="text-stone-700 text-sm leading-relaxed mb-6 font-medium">
+              "Explore different ways to enjoy your Talbina blend as part of your daily food routine."
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Comforting Morning Porridge:</strong>
+                  Stir gently into warm milk or water until smooth. Enjoy as a warm, comforting bowl to start your day.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Natural Sweetness:</strong>
+                  Pair naturally with chopped dates or a touch of honey according to your personal taste.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5 bg-white p-4 rounded-xl border border-stone-200/70">
+                <i data-lucide="check" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+                <div class="text-xs sm:text-sm text-stone-700">
+                  <strong class="font-bold text-emerald-950 block">Storage Tip:</strong>
+                  Keep your pack sealed in a clean, airtight container in a cool, dry place to maintain roasted freshness.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- J. DELIVERY AND PAYMENT INFORMATION                -->
+    <!-- ================================================== -->
+    <section id="delivery-info" class="py-16 sm:py-24 bg-gradient-to-b from-warm-100/50 to-warm-50 border-t border-stone-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-800 bg-emerald-100 px-3.5 py-1 rounded-full border border-emerald-200">
+            Straightforward Ordering
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            Delivery &amp; Payment Information
+          </h2>
+          <p class="text-stone-600 text-base mt-3">
+            Clear guidelines on how your orders are packaged, shipped, and settled across Pakistan.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          
+          <div class="bg-white rounded-2xl p-7 border border-stone-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5">
+                <i data-lucide="map-pinned" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-xl text-emerald-950 mb-2">Nationwide Delivery</h3>
+              <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                "We deliver our products across Pakistan."
+              </p>
+              <div class="p-3.5 rounded-xl bg-emerald-50 text-emerald-950 text-xs font-medium space-y-1">
+                <div>&bull; Major cities &amp; regional towns</div>
+                <div>&bull; Carefully packed for transit</div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-stone-100 text-xs font-bold text-emerald-800">
+              Shipped from PD Khan, District Jhelum
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-7 border-2 border-emerald-800 shadow-md flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-amber-400 text-emerald-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-bl-xl tracking-wider">
+              Special Offer
+            </div>
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center mb-5">
+                <i data-lucide="truck" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-xl text-emerald-950 mb-2">Shipping Charges</h3>
+              
+              <div class="space-y-3 mt-4 text-sm">
+                <div class="p-3 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between">
+                  <span class="text-stone-700">Orders below Rs. 5,000:</span>
+                  <span class="font-extrabold text-stone-900">Rs. 250</span>
+                </div>
+                <div class="p-3 rounded-xl bg-emerald-50 border border-emerald-300 flex items-center justify-between">
+                  <span class="text-emerald-900 font-semibold">Orders of Rs. 5,000 or more:</span>
+                  <span class="font-extrabold text-emerald-800 uppercase tracking-wide">FREE Delivery</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-stone-100 text-xs text-stone-500">
+              * Ordering 2 Bulky Sips (Rs. 5,000) qualifies for FREE delivery!
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-7 border border-stone-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5">
+                <i data-lucide="credit-card" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-heading font-bold text-xl text-emerald-950 mb-2">Payment Methods</h3>
+              
+              <div class="space-y-3.5 mt-4 text-xs text-stone-700">
+                <div class="p-3 rounded-xl bg-warm-50 border border-stone-200">
+                  <strong class="text-stone-900 block font-bold text-sm mb-1">Cash on Delivery (COD):</strong>
+                  <span>"Pay when your order is delivered, subject to delivery availability."</span>
+                </div>
+                <div class="p-3 rounded-xl bg-warm-50 border border-stone-200">
+                  <strong class="text-stone-900 block font-bold text-sm mb-1">Bank Transfer:</strong>
+                  <span>"Contact us on WhatsApp to obtain current payment details and confirm your transfer."</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-stone-100 text-xs font-bold text-amber-700">
+              Confirmed on WhatsApp: 0309-5916469
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- H. CUSTOMER REVIEWS (PLACEHOLDERS)                 -->
+    <!-- ================================================== -->
+    <section class="py-16 sm:py-20 bg-white border-t border-stone-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full border border-amber-200">
+            Customer Feedback
+          </span>
+          <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            What Customers Appreciate
+          </h2>
+          <p class="text-stone-500 text-xs sm:text-sm mt-2">
+            Sample demonstration cards designed for easy replacement with verified customer feedback.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-warm-50 rounded-2xl p-6 border border-stone-200 relative">
+            <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100/90 px-2.5 py-0.5 rounded mb-4">
+              Sample testimonial — replace with a verified customer review
+            </span>
+            <div class="flex items-center gap-1 text-amber-500 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-stone-700 text-sm italic leading-relaxed mb-4">
+              "The aroma of roasted barley, cardamom, and soft dates in the Talbina Oats is exceptional. Wholesome and easy to prepare."
+            </p>
+            <div class="pt-3 border-t border-stone-200/70 text-xs">
+              <span class="font-bold text-emerald-950 block">Customer Feedback Placeholder</span>
+              <span class="text-stone-500">Talbina Oats (300 g)</span>
+            </div>
+          </div>
+
+          <div class="bg-warm-50 rounded-2xl p-6 border border-stone-200 relative">
+            <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100/90 px-2.5 py-0.5 rounded mb-4">
+              Sample testimonial — replace with a verified customer review
+            </span>
+            <div class="flex items-center gap-1 text-amber-500 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-stone-700 text-sm italic leading-relaxed mb-4">
+              "Bulky Sips blends smoothly with milk and bananas. Packed with dry fruits and nuts that my children genuinely enjoy."
+            </p>
+            <div class="pt-3 border-t border-stone-200/70 text-xs">
+              <span class="font-bold text-emerald-950 block">Customer Feedback Placeholder</span>
+              <span class="text-stone-500">Bulky Sips (300 g)</span>
+            </div>
+          </div>
+
+          <div class="bg-warm-50 rounded-2xl p-6 border border-stone-200 relative">
+            <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100/90 px-2.5 py-0.5 rounded mb-4">
+              Sample testimonial — replace with a verified customer review
+            </span>
+            <div class="flex items-center gap-1 text-amber-500 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-stone-700 text-sm italic leading-relaxed mb-4">
+              "Quick communication on WhatsApp and straightforward Cash on Delivery. Transparent ingredient list gives great confidence."
+            </p>
+            <div class="pt-3 border-t border-stone-200/70 text-xs">
+              <span class="font-bold text-emerald-950 block">Customer Feedback Placeholder</span>
+              <span class="text-stone-500">Delivery Across Pakistan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- I. FREQUENTLY ASKED QUESTIONS                      -->
+    <!-- ================================================== -->
+    <section id="faq" class="py-16 sm:py-24 bg-warm-100/70 border-t border-stone-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-14">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-800 bg-emerald-100 px-3.5 py-1 rounded-full border border-emerald-200">
+            Got Questions?
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-emerald-950 mt-3 tracking-tight">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-stone-600 text-sm sm:text-base mt-2">
+            Accurate answers about our products, 300 g pack sizes, shipping, and payment options.
+          </p>
+        </div>
+
+        <div class="space-y-3" id="faqAccordion">
+          
+          <!-- Q1 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>1. What is AROSMINES?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              AROSMINES is an organic health products and nutrition brand based in Pind Dadan Khan (PD Khan), District Jhelum, Punjab, Pakistan. We craft thoughtfully prepared nutrition blends inspired by tradition and made with carefully selected ingredients for everyday nourishment.
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>2. What ingredients are used in Talbina Oats?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Talbina Oats contains 11 wholesome ingredients: Roasted Rolled Oats &amp; Roasted Barley, Roasted Phool Makhana, Isabgol (Psyllium Husk), Chia Seeds, Roasted Ground Flax Seeds, Roasted Pumpkin Seeds, Chopped Soft Dates, Sesame Seeds, Roasted Crushed Almonds, Green Cardamom Powder, and Fine Saunf (Fennel Powder).
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>3. What ingredients are used in Bulky Sips?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Bulky Sips contains 13 wholesome ingredients: Roasted Rolled Oats, Dry-Roasted Suji (Semolina), Roasted Phool Makhana, Chopped Soft Dates, Chopped Raisins, Roasted Almonds, Roasted Cashew Nuts, Char Magaz (Melon Seeds), Roasted Pistachios, Roasted Sunflower Seeds, Roasted Ground Flax Seeds, Green Cardamom Powder, and Fine Saunf (Fennel Powder).
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>4. What pack sizes are available?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Both Bulky Sips and Talbina Oats are available in standard <strong>300 g packs</strong>.
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>5. What are the product prices?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              &bull; <strong>Bulky Sips (300 g)</strong>: Rs. 2,500<br>
+              &bull; <strong>Talbina Oats (300 g)</strong>: Rs. 2,150
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>6. Do you deliver across Pakistan?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Yes, we deliver across Pakistan to major cities and regional towns.
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>7. How much is the delivery fee?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              For orders below Rs. 5,000, shipping is flat Rs. 250 across Pakistan.
+            </div>
+          </div>
+
+          <!-- Q8 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>8. When is delivery free?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Delivery is completely FREE on orders of Rs. 5,000 or more. For example, ordering 2 packs of Bulky Sips (Rs. 5,000) qualifies for free delivery!
+            </div>
+          </div>
+
+          <!-- Q9 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>9. Can I pay Cash on Delivery?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Yes, you can pay when your order is delivered, subject to delivery availability.
+            </div>
+          </div>
+
+          <!-- Q10 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>10. Can I pay by bank transfer?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Yes, contact us on WhatsApp (0309-5916469) to obtain current payment details and confirm your transfer.
+            </div>
+          </div>
+
+          <!-- Q11 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>11. How can I place an order?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              You can tap "Order on WhatsApp" on any product to chat directly with pre-filled questions, or add products to your cart, fill in your delivery details, and click "Place Order via WhatsApp".
+            </div>
+          </div>
+
+          <!-- Q12 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>12. How can I contact AROSMINES?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              Our official WhatsApp number is <strong>0309-5916469</strong> (International: <strong>+923095916469</strong>). Location: Pind Dadan Khan, District Jhelum, Punjab, Pakistan.
+            </div>
+          </div>
+
+          <!-- Q13 -->
+          <div class="faq-item bg-white rounded-2xl border border-stone-200/90 shadow-sm overflow-hidden transition-colors">
+            <button type="button" class="faq-toggle w-full px-6 py-4.5 text-left flex items-center justify-between gap-4 font-heading font-bold text-base sm:text-lg text-emerald-950 hover:text-emerald-800">
+              <span>13. Which allergens should customers know about?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-stone-500 shrink-0 transition-transform duration-200"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 pt-1 text-sm text-stone-600 leading-relaxed border-t border-stone-100">
+              &bull; <strong>Bulky Sips</strong>: Contains tree nuts (almonds, cashews, and pistachios). Produced in a facility that handles wheat/gluten.<br><br>
+              &bull; <strong>Talbina Oats</strong>: Contains tree nuts (almonds) and sesame. Produced in a facility that handles wheat/gluten.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- K. CONTACT SECTION                                 -->
+    <!-- ================================================== -->
+    <section id="contact" class="py-16 sm:py-24 bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 text-white relative overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-7 space-y-6">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-800/80 text-amber-300 text-xs font-bold border border-emerald-700/60">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Official WhatsApp Service</span>
+            </span>
+
+            <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+              Order or Inquire Directly on WhatsApp
+            </h2>
+
+            <p class="text-emerald-100 text-base sm:text-lg leading-relaxed">
+              Have questions about Bulky Sips (300 g) or Talbina Oats (300 g)? Our team in Pind Dadan Khan is ready to assist you.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="bg-emerald-900/60 p-4.5 rounded-2xl border border-emerald-700/50 flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="phone-call" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-emerald-200 block font-medium">WhatsApp Number</span>
+                  <a href="https://wa.me/923095916469" class="font-heading font-extrabold text-lg text-white hover:text-amber-300 transition">
+                    0309-5916469
+                  </a>
+                  <span class="text-[11px] text-emerald-300 block">+92 309 5916469</span>
+                </div>
+              </div>
+
+              <div class="bg-emerald-900/60 p-4.5 rounded-2xl border border-emerald-700/50 flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-emerald-200 block font-medium">Business Location</span>
+                  <span class="font-heading font-bold text-sm text-white block">
+                    Pind Dadan Khan (PD Khan)
+                  </span>
+                  <span class="text-[11px] text-emerald-300 block">District Jhelum, Punjab, Pakistan</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-4 pt-4">
+              <button type="button" 
+                      onclick="openWhatsAppQuestionModal('general')"
+                      class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-emerald-950 font-extrabold text-base shadow-lg transition">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span>Order on WhatsApp (0309-5916469)</span>
+              </button>
+
+              <button type="button" 
+                      onclick="openCartDrawer()"
+                      class="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-emerald-800/80 hover:bg-emerald-800 text-white font-bold text-base border border-emerald-600/70 transition">
+                <i data-lucide="shopping-bag" class="w-5 h-5 text-amber-300"></i>
+                <span>Review Shopping Cart</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick WhatsApp Consultation Card -->
+          <div class="lg:col-span-5">
+            <div class="bg-white text-stone-800 rounded-3xl p-6 sm:p-8 shadow-2xl border border-stone-200">
+              <div class="flex items-center gap-3 pb-4 border-b border-stone-200 mb-6">
+                <div class="w-11 h-11 rounded-xl bg-emerald-800 text-amber-300 flex items-center justify-center">
+                  <i data-lucide="send" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="font-heading font-extrabold text-lg text-emerald-950">Quick WhatsApp Inquiry</h3>
+                  <p class="text-xs text-stone-500">Choose a question or write a custom message</p>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <div>
+                  <label for="quickInquiryMessage" class="block text-xs font-bold text-stone-700 uppercase mb-1">
+                    Your Question or Message:
+                  </label>
+                  <textarea id="quickInquiryMessage" 
+                            rows="3" 
+                            placeholder="Hello AROSMINES! I would like to ask about Bulky Sips and Talbina Oats..."
+                            class="w-full p-3 text-sm rounded-xl border border-stone-300 focus:ring-2 focus:ring-emerald-700 focus:outline-none"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                  <button type="button" 
+                          onclick="sendQuickInquiry()"
+                          class="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl bg-emerald-900 hover:bg-emerald-800 text-white font-bold text-sm shadow transition">
+                    <i data-lucide="message-circle" class="w-4 h-4 text-amber-300"></i>
+                    <span>Send via WhatsApp</span>
+                  </button>
+
+                  <button type="button" 
+                          onclick="openWhatsAppQuestionModal('general')"
+                          class="w-full flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-950 font-semibold text-xs border border-emerald-200 transition">
+                    <i data-lucide="help-circle" class="w-3.5 h-3.5 text-emerald-700"></i>
+                    <span>Select From 3 Common Questions</span>
+                  </button>
+                </div>
+
+                <p class="text-[11px] text-stone-500 text-center leading-normal">
+                  Official WhatsApp: <strong>0309-5916469</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================== -->
+  <!-- 17. FOOTER                                         -->
+  <!-- ================================================== -->
+  <footer class="bg-emerald-950 text-stone-300 border-t border-emerald-900 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-emerald-900/80">
+        
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-900 border border-emerald-700/60 flex items-center justify-center">
+              <svg class="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C6.5 2 2 6.5 2 12c0 4 2.5 7.5 6 9 1-2 1.5-4 1.5-7 0-4 2.5-6.5 6.5-6.5 2 0 4 .5 6 1.5-1.5-5.5-5.5-7-10-7z" fill="currentColor" fill-opacity="0.2"/>
+                <path d="M12 2c3.5 2 6 5.5 6 9.5 0 4-2 7.5-6 10.5"/>
+              </svg>
+            </div>
+            <span class="font-heading font-extrabold text-2xl text-white tracking-wider uppercase">AROSMINES</span>
+          </div>
+          
+          <p class="text-stone-400 text-sm leading-relaxed max-w-sm">
+            Thoughtfully prepared organic nutrition blends inspired by tradition and crafted with carefully selected wholesome ingredients for everyday family nourishment.
+          </p>
+
+          <div class="text-xs text-amber-300 font-semibold flex items-center gap-2">
+            <i data-lucide="map-pin" class="w-4 h-4 text-amber-400"></i>
+            <span>Pind Dadan Khan (PD Khan), District Jhelum, Punjab, Pakistan</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-base mb-4 tracking-wide">Explore</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#home" class="hover:text-amber-300 transition-colors">Home</a></li>
+            <li><a href="#products" class="hover:text-amber-300 transition-colors">Our Products</a></li>
+            <li><a href="#why-choose" class="hover:text-amber-300 transition-colors">Why Choose Us</a></li>
+            <li><a href="#ingredients-section" class="hover:text-amber-300 transition-colors">Ingredients &amp; Allergens</a></li>
+            <li><a href="#how-to-enjoy" class="hover:text-amber-300 transition-colors">How to Enjoy</a></li>
+            <li><a href="#faq" class="hover:text-amber-300 transition-colors">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-base mb-4 tracking-wide">Our Blends (300 g)</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#bulkysips-card" class="hover:text-amber-300 transition-colors font-semibold">Bulky Sips (300 g) — Rs. 2,500</a></li>
+            <li><a href="#talbina-card" class="hover:text-amber-300 transition-colors font-semibold">Talbina Oats (300 g) — Rs. 2,150</a></li>
+            <li class="pt-2 text-xs text-stone-400">Free delivery on Rs. 5,000+ orders across Pakistan.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-base mb-4 tracking-wide">Orders &amp; WhatsApp</h4>
+          <ul class="space-y-2 text-xs text-stone-400">
+            <li><span class="text-stone-300 font-semibold">Delivery:</span> Across Pakistan</li>
+            <li><span class="text-stone-300 font-semibold">Under Rs. 5,000:</span> Rs. 250 fee</li>
+            <li><span class="text-amber-300 font-bold">Rs. 5,000 &amp; Above:</span> FREE Delivery</li>
+            <li><span class="text-stone-300 font-semibold">Payment:</span> Cash on Delivery &amp; Bank Transfer</li>
+            <li class="pt-2">
+              <a href="https://wa.me/923095916469" class="inline-flex items-center gap-1.5 text-amber-300 hover:text-amber-200 font-bold text-sm">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>0309-5916469</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright Notice & File Download -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+        <div>
+          &copy; <span id="currentYear">2026</span> AROSMINES. All rights reserved. Organic Health Products &amp; Nutrition.
+        </div>
+        <div class="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-right">
+          <a href="index.html" download="index.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-900/90 hover:bg-emerald-800 text-amber-300 font-semibold text-xs border border-emerald-700/60 transition">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Download Website File (index.html)</span>
+          </a>
+          <span class="text-stone-400">PD Khan, District Jhelum, Punjab, Pakistan</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================== -->
+  <!-- FLOATING ACTION BUTTONS (CART & WHATSAPP)          -->
+  <!-- ================================================== -->
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-3 pointer-events-none">
+    
+    <!-- Floating WhatsApp Button (Triggers 3-Questions Selector) -->
+    <button type="button" 
+            onclick="openWhatsAppQuestionModal('general')"
+            aria-label="Order on WhatsApp"
+            class="pointer-events-auto w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white shadow-xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center border-2 border-white/80 group">
+      <i data-lucide="message-circle" class="w-7 h-7"></i>
+      <span class="absolute right-16 bg-emerald-950 text-white text-xs font-bold py-1.5 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap shadow-lg pointer-events-none">
+        Order on WhatsApp (0309-5916469)
+      </span>
+    </button>
+
+    <!-- Floating Cart Trigger Button -->
+    <button type="button" 
+            onclick="openCartDrawer()"
+            aria-label="Open Cart" 
+            class="pointer-events-auto flex items-center gap-3 px-5 py-3.5 rounded-full bg-emerald-900 hover:bg-emerald-800 text-white shadow-2xl hover:scale-105 active:scale-95 transition-all border-2 border-amber-400/80">
+      <div class="relative">
+        <i data-lucide="shopping-bag" class="w-6 h-6 text-amber-300"></i>
+        <span id="floatingCartCount" class="absolute -top-2 -right-2 bg-amber-500 text-emerald-950 font-extrabold text-xs w-5 h-5 rounded-full flex items-center justify-center shadow">
+          0
+        </span>
+      </div>
+      <div class="text-left hidden sm:block">
+        <span class="block text-[10px] text-amber-300 font-bold uppercase tracking-wider leading-none">Your Cart</span>
+        <span id="floatingCartTotal" class="block text-sm font-extrabold text-white">Rs. 0</span>
+      </div>
+    </button>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- 5 & 6. WHATSAPP 3-QUESTIONS SELECTABLE MODAL       -->
+  <!-- ================================================== -->
+  <div id="whatsAppQuestionModal" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="waModalTitle" role="dialog" aria-modal="true">
+    <div onclick="closeWhatsAppQuestionModal()" class="fixed inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity"></div>
+    <div class="fixed inset-0 flex items-center justify-center p-4">
+      <div class="relative bg-white rounded-3xl max-w-lg w-full max-h-[92vh] overflow-y-auto shadow-2xl p-6 sm:p-8 border border-stone-200">
+        
+        <!-- Modal Header -->
+        <div class="flex items-start justify-between pb-4 border-b border-stone-200 mb-5">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-800 text-white flex items-center justify-center shadow-md">
+              <i data-lucide="message-circle" class="w-6 h-6 text-amber-300"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-amber-700 block">AROSMINES WhatsApp</span>
+              <h3 id="waModalTitle" class="font-heading font-extrabold text-xl text-emerald-950 leading-tight">
+                Order or Inquire on WhatsApp
+              </h3>
+            </div>
+          </div>
+          <button type="button" 
+                  onclick="closeWhatsAppQuestionModal()" 
+                  aria-label="Close dialog" 
+                  class="p-2 rounded-lg text-stone-400 hover:text-stone-800 hover:bg-stone-100 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+        <!-- Product Context Switcher Tabs -->
+        <div class="mb-4">
+          <label class="block text-[11px] font-extrabold uppercase tracking-wider text-stone-500 mb-2">Select Product / Inquiry Subject:</label>
+          <div class="grid grid-cols-3 gap-2 p-1.5 bg-stone-100 rounded-2xl border border-stone-200 text-center">
+            <button type="button" 
+                    id="waTabBulky" 
+                    onclick="setWhatsAppActiveProduct('bulkysips')" 
+                    class="py-2.5 px-1.5 rounded-xl text-xs font-extrabold transition-all bg-white text-emerald-950 border border-stone-300 shadow-xs">
+              <span class="block truncate">Bulky Sips</span>
+              <span class="block text-[10px] text-amber-700 font-extrabold">Rs. 2,500</span>
+            </button>
+            <button type="button" 
+                    id="waTabTalbina" 
+                    onclick="setWhatsAppActiveProduct('talbina')" 
+                    class="py-2.5 px-1.5 rounded-xl text-xs font-extrabold transition-all text-stone-600 hover:text-emerald-950">
+              <span class="block truncate">Talbina Oats</span>
+              <span class="block text-[10px] text-emerald-700 font-extrabold">Rs. 2,150</span>
+            </button>
+            <button type="button" 
+                    id="waTabGeneral" 
+                    onclick="setWhatsAppActiveProduct('general')" 
+                    class="py-2.5 px-1.5 rounded-xl text-xs font-extrabold transition-all text-stone-600 hover:text-emerald-950 flex flex-col justify-center">
+              <span class="block truncate">General</span>
+              <span class="block text-[10px] text-stone-500">Inquiry</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Selected Product Context Badge -->
+        <div id="waModalProductBadgeContainer" class="mb-5 p-3 rounded-xl bg-warm-100/80 border border-stone-200 flex items-center justify-between text-xs">
+          <span class="text-stone-600 font-medium">Selected Product:</span>
+          <span id="waModalProductBadge" class="font-extrabold text-emerald-950 bg-white px-2.5 py-1 rounded-lg border border-stone-300">
+            Bulky Sips (300 g) — Rs. 2,500
+          </span>
+        </div>
+
+        <p class="text-xs text-stone-600 mb-4 font-semibold">
+          Select what you would like to ask our team on WhatsApp (<strong class="text-emerald-900">0309-5916469</strong>):
+        </p>
+
+        <!-- THREE SELECTABLE QUESTIONS -->
+        <div class="space-y-3">
+          
+          <!-- QUESTION A -->
+          <button type="button" 
+                  onclick="triggerWhatsAppQuestion('A')"
+                  class="w-full text-left p-4 rounded-2xl border-2 border-stone-200 hover:border-emerald-700 bg-white hover:bg-emerald-50/50 transition-all group flex items-start gap-3.5 shadow-xs">
+            <span class="w-7 h-7 rounded-xl bg-emerald-100 group-hover:bg-emerald-800 group-hover:text-amber-300 text-emerald-900 font-extrabold text-xs flex items-center justify-center shrink-0 transition-colors">
+              A
+            </span>
+            <div class="flex-grow">
+              <span class="block text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-0.5">Product Information</span>
+              <span class="block font-heading font-bold text-sm text-stone-900 group-hover:text-emerald-950">
+                I would like more information about the product.
+              </span>
+              <span class="text-[11px] text-stone-500 mt-1 block">
+                Ask about pack details, daily usage, and recommendations.
+              </span>
+            </div>
+            <i data-lucide="arrow-right" class="w-4 h-4 text-stone-400 group-hover:text-emerald-800 shrink-0 mt-1 transition-transform group-hover:translate-x-1"></i>
+          </button>
+
+          <!-- QUESTION B -->
+          <button type="button" 
+                  onclick="triggerWhatsAppQuestion('B')"
+                  class="w-full text-left p-4 rounded-2xl border-2 border-emerald-800 bg-emerald-50/70 hover:bg-emerald-100/70 transition-all group flex items-start gap-3.5 shadow-xs">
+            <span class="w-7 h-7 rounded-xl bg-emerald-800 text-amber-300 font-extrabold text-xs flex items-center justify-center shrink-0">
+              B
+            </span>
+            <div class="flex-grow">
+              <span class="block text-xs font-extrabold uppercase tracking-wider text-emerald-900 mb-0.5">Place an Order</span>
+              <span class="block font-heading font-bold text-sm text-emerald-950">
+                How can I place an order?
+              </span>
+              <span class="text-[11px] text-emerald-800 mt-1 block">
+                Direct WhatsApp ordering with address and Cash on Delivery / Bank details.
+              </span>
+            </div>
+            <i data-lucide="arrow-right" class="w-4 h-4 text-emerald-800 shrink-0 mt-1 transition-transform group-hover:translate-x-1"></i>
+          </button>
+
+          <!-- QUESTION C -->
+          <button type="button" 
+                  onclick="triggerWhatsAppQuestion('C')"
+                  class="w-full text-left p-4 rounded-2xl border-2 border-stone-200 hover:border-emerald-700 bg-white hover:bg-emerald-50/50 transition-all group flex items-start gap-3.5 shadow-xs">
+            <span class="w-7 h-7 rounded-xl bg-emerald-100 group-hover:bg-emerald-800 group-hover:text-amber-300 text-emerald-900 font-extrabold text-xs flex items-center justify-center shrink-0 transition-colors">
+              C
+            </span>
+            <div class="flex-grow">
+              <span class="block text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-0.5">Ingredients &amp; Benefits</span>
+              <span class="block font-heading font-bold text-sm text-stone-900 group-hover:text-emerald-950">
+                I would like to know more about the ingredients and benefits.
+              </span>
+              <span class="text-[11px] text-stone-500 mt-1 block">
+                Ask about the 100% natural nuts, grains, seeds, and allergen details.
+              </span>
+            </div>
+            <i data-lucide="arrow-right" class="w-4 h-4 text-stone-400 group-hover:text-emerald-800 shrink-0 mt-1 transition-transform group-hover:translate-x-1"></i>
+          </button>
+
+        </div>
+
+        <!-- Official Number Note -->
+        <div class="mt-6 pt-4 border-t border-stone-200 flex items-center justify-between text-xs text-stone-500">
+          <span class="flex items-center gap-1.5">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-700"></i>
+            <span>WhatsApp: <strong>0309-5916469</strong></span>
+          </span>
+          <button type="button" onclick="closeWhatsAppQuestionModal()" class="text-stone-500 hover:text-stone-800 font-semibold">
+            Cancel
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- 9 & 10. SHOPPING CART DRAWER & CHECKOUT FORM       -->
+  <!-- ================================================== -->
+  <div id="cartDrawer" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="cartDrawerTitle" role="dialog" aria-modal="true">
+    <div id="cartBackdrop" onclick="closeCartDrawer()" class="fixed inset-0 bg-stone-900/60 backdrop-blur-sm drawer-backdrop opacity-0 transition-opacity"></div>
+
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-10">
+      <div id="cartPanel" class="w-screen max-w-lg bg-white shadow-2xl flex flex-col drawer-content translate-x-full transition-transform">
+        
+        <!-- Cart Header -->
+        <div class="p-5 sm:p-6 bg-emerald-950 text-white flex items-center justify-between border-b border-emerald-900">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-900 border border-emerald-700/60 flex items-center justify-center text-amber-300">
+              <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h2 id="cartDrawerTitle" class="font-heading font-extrabold text-xl text-white">Your Shopping Cart</h2>
+              <p class="text-xs text-emerald-200">
+                <span id="cartDrawerItemsCountText">0 items selected</span>
+              </p>
+            </div>
+          </div>
+          <button type="button" 
+                  onclick="closeCartDrawer()" 
+                  aria-label="Close Cart"
+                  class="p-2 rounded-lg text-emerald-200 hover:text-white hover:bg-emerald-900 transition focus:outline-none">
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <!-- Free Delivery Progress Bar (Shipping Rule) -->
+        <div class="bg-amber-50 px-5 py-3 border-b border-amber-200 text-xs">
+          <div class="flex items-center justify-between font-semibold text-amber-950 mb-1.5">
+            <span id="freeShippingBannerText" class="flex items-center gap-1.5">
+              <i data-lucide="truck" class="w-4 h-4 text-amber-700"></i>
+              <span>Add Rs. 5,000 more to unlock FREE DELIVERY!</span>
+            </span>
+          </div>
+          <div class="w-full bg-amber-200/80 rounded-full h-2 overflow-hidden">
+            <div id="freeShippingProgressBar" class="bg-gradient-to-r from-amber-500 to-emerald-600 h-2 rounded-full transition-all duration-300" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <!-- Cart Body / Item List -->
+        <div class="flex-grow overflow-y-auto p-5 sm:p-6 space-y-4">
+          <div id="emptyCartView" class="py-12 text-center space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-warm-100 text-stone-400 mx-auto flex items-center justify-center">
+              <i data-lucide="shopping-cart" class="w-8 h-8"></i>
+            </div>
+            <h3 class="font-heading font-bold text-lg text-stone-800">Your cart is currently empty</h3>
+            <p class="text-xs text-stone-500 max-w-xs mx-auto">
+              Add Bulky Sips (300 g) or Talbina Oats (300 g) to your cart.
+            </p>
+            <button type="button" 
+                    onclick="closeCartDrawer(); window.location.hash = '#products';"
+                    class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-900 text-white font-bold text-xs hover:bg-emerald-800 transition">
+              <span>Browse Products</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <div id="cartItemsList" class="space-y-3">
+            <!-- Dynamically populated with Cart Items -->
+          </div>
+        </div>
+
+        <!-- Cart Footer & Checkout Form Section -->
+        <div id="cartFooterSection" class="p-5 sm:p-6 bg-warm-50 border-t border-stone-200 space-y-4">
+          
+          <!-- Summary Calculations -->
+          <div class="space-y-1.5 text-xs sm:text-sm">
+            <div class="flex justify-between text-stone-600">
+              <span>Subtotal:</span>
+              <span id="cartSubtotalDisplay" class="font-bold text-stone-900">Rs. 0</span>
+            </div>
+            <div class="flex justify-between text-stone-600">
+              <span class="flex items-center gap-1">
+                <span>Shipping:</span>
+                <span id="cartShippingNote" class="text-[11px] text-stone-500">(Rs. 250 below Rs. 5k)</span>
+              </span>
+              <span id="cartShippingDisplay" class="font-bold text-stone-900">Rs. 250</span>
+            </div>
+            <div class="pt-2 border-t border-stone-300 flex justify-between items-baseline">
+              <span class="font-heading font-extrabold text-base text-emerald-950">Grand Total:</span>
+              <span id="cartGrandTotalDisplay" class="font-heading font-extrabold text-2xl text-emerald-950">
+                Rs. 0
+              </span>
+            </div>
+          </div>
+
+          <!-- Checkout Details -->
+          <div class="pt-2">
+            <details id="checkoutDetailsSection" open class="group">
+              <summary class="cursor-pointer text-xs font-bold uppercase tracking-wider text-emerald-900 hover:text-emerald-700 flex items-center justify-between pb-2 border-b border-stone-200">
+                <span>Customer Delivery Details</span>
+                <i data-lucide="chevron-down" class="w-4 h-4 group-open:rotate-180 transition-transform"></i>
+              </summary>
+
+              <form id="checkoutForm" onsubmit="event.preventDefault(); submitWhatsAppOrder();" class="mt-3 space-y-3">
+                <div>
+                  <label for="custName" class="block text-xs font-semibold text-stone-700 mb-1">
+                    Customer Full Name <span class="text-rose-600">*</span>
+                  </label>
+                  <input type="text" id="custName" required placeholder="e.g. Muhammad Rehan" 
+                         class="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 focus:ring-2 focus:ring-emerald-700 focus:outline-none">
+                </div>
+
+                <div>
+                  <label for="custMobile" class="block text-xs font-semibold text-stone-700 mb-1">
+                    WhatsApp / Mobile Number <span class="text-rose-600">*</span>
+                  </label>
+                  <input type="tel" id="custMobile" required placeholder="e.g. 0309-1234567" 
+                         class="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 focus:ring-2 focus:ring-emerald-700 focus:outline-none">
+                </div>
+
+                <div>
+                  <label for="custCity" class="block text-xs font-semibold text-stone-700 mb-1">
+                    City <span class="text-rose-600">*</span>
+                  </label>
+                  <input type="text" id="custCity" required placeholder="e.g. Lahore, Rawalpindi, Jhelum, Karachi" 
+                         class="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 focus:ring-2 focus:ring-emerald-700 focus:outline-none">
+                </div>
+
+                <div>
+                  <label for="custAddress" class="block text-xs font-semibold text-stone-700 mb-1">
+                    Complete Delivery Address <span class="text-rose-600">*</span>
+                  </label>
+                  <textarea id="custAddress" required rows="2" placeholder="House/Flat number, Street, Area, Landmark" 
+                            class="w-full px-3 py-2 text-xs rounded-lg border border-stone-300 focus:ring-2 focus:ring-emerald-700 focus:outline-none"></textarea>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-semibold text-stone-700 mb-1">
+                    Payment Method <span class="text-rose-600">*</span>
+                  </label>
+                  <div class="grid grid-cols-2 gap-2 text-xs">
+                    <label class="p-2.5 rounded-lg border border-stone-300 flex items-center gap-2 cursor-pointer hover:bg-stone-100 has-[:checked]:border-emerald-800 has-[:checked]:bg-emerald-50">
+                      <input type="radio" name="paymentMethod" value="Cash on Delivery" checked class="text-emerald-800 focus:ring-emerald-700">
+                      <span class="font-medium text-stone-800">Cash on Delivery</span>
+                    </label>
+
+                    <label class="p-2.5 rounded-lg border border-stone-300 flex items-center gap-2 cursor-pointer hover:bg-stone-100 has-[:checked]:border-emerald-800 has-[:checked]:bg-emerald-50">
+                      <input type="radio" name="paymentMethod" value="Bank Transfer" class="text-emerald-800 focus:ring-emerald-700">
+                      <span class="font-medium text-stone-800">Bank Transfer</span>
+                    </label>
+                  </div>
+                  <div id="bankTransferNotice" class="hidden mt-2 p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-[11px] text-amber-900">
+                    <span class="font-bold block">Bank Transfer Instructions:</span>
+                    Please contact us on WhatsApp to obtain current bank account details and confirm your transfer payment.
+                  </div>
+                </div>
+
+                <div id="checkoutErrorMsg" class="hidden text-xs text-rose-700 bg-rose-50 p-2.5 rounded-lg border border-rose-200 font-semibold"></div>
+
+                <!-- MAIN CHECKOUT BUTTON -->
+                <button type="submit" 
+                        id="placeOrderWhatsAppBtn"
+                        class="w-full py-4 px-6 rounded-xl bg-emerald-800 hover:bg-emerald-700 active:scale-[0.99] text-white font-extrabold text-base shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2.5">
+                  <i data-lucide="message-circle" class="w-5 h-5 text-amber-300"></i>
+                  <span>Place Order via WhatsApp</span>
+                </button>
+              </form>
+            </details>
+          </div>
+
+          <div class="text-[11px] text-stone-500 text-center leading-snug">
+            Official WhatsApp: <strong>0309-5916469</strong>. Your order receipt will open ready to send.
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- INGREDIENTS MODAL                                  -->
+  <!-- ================================================== -->
+  <div id="ingredientsModal" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="modalTitle" role="dialog" aria-modal="true">
+    <div onclick="closeIngredientsModal()" class="fixed inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity"></div>
+    <div class="fixed inset-0 flex items-center justify-center p-4">
+      <div class="relative bg-white rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl p-6 sm:p-8 border border-stone-200">
+        
+        <div class="flex items-center justify-between pb-4 border-b border-stone-200 mb-6">
+          <div>
+            <span id="modalProductBadge" class="text-xs font-bold uppercase text-amber-700">Ingredient Details</span>
+            <h3 id="modalProductTitle" class="font-heading font-extrabold text-xl text-emerald-950">Full Ingredient List</h3>
+          </div>
+          <button type="button" onclick="closeIngredientsModal()" class="p-2 rounded-lg text-stone-500 hover:text-stone-800 hover:bg-stone-100 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+        <div id="modalIngredientsContent" class="space-y-4"></div>
+
+        <div id="modalAllergenBox" class="mt-6 p-4 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-950"></div>
+
+        <div class="mt-6 pt-4 border-t border-stone-200 flex justify-end">
+          <button type="button" onclick="closeIngredientsModal()" class="px-5 py-2.5 rounded-xl bg-emerald-950 text-white font-bold text-xs hover:bg-emerald-900 transition">
+            Close Window
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-emerald-950 text-white px-5 py-3 rounded-2xl shadow-2xl border border-amber-400/80 text-xs sm:text-sm font-bold flex items-center gap-2.5 transition-all duration-300 opacity-0 pointer-events-none translate-y-4">
+    <i data-lucide="check-circle" class="w-4 h-4 text-amber-400"></i>
+    <span id="toastMessage">Product added to cart!</span>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- JAVASCRIPT APPLICATION LOGIC                       -->
+  <!-- ================================================== -->
+  <script>
+    // --- 1. PRODUCT CATALOG DATA (EXACTLY 2 PRODUCTS: 300g) ---
+    const PRODUCTS = {
+      bulkysips: {
+        id: 'bulkysips',
+        name: 'Bulky Sips (300 g)',
+        shortName: 'Bulky Sips',
+        size: '300 g',
+        price: 2500,
+        ingredients: [
+          'Roasted Rolled Oats',
+          'Dry-Roasted Suji / Semolina',
+          'Roasted Phool Makhana',
+          'Chopped Soft Dates',
+          'Chopped Raisins',
+          'Roasted Almonds',
+          'Roasted Cashew Nuts',
+          'Char Magaz / Melon Seeds',
+          'Roasted Pistachios',
+          'Roasted Sunflower Seeds',
+          'Roasted Ground Flax Seeds',
+          'Green Cardamom Powder',
+          'Fine Saunf / Fennel Powder'
+        ],
+        allergen: 'Contains tree nuts (almonds, cashews, and pistachios). Produced in a facility that handles wheat/gluten.'
+      },
+      talbina: {
+        id: 'talbina',
+        name: 'Talbina Oats (300 g)',
+        shortName: 'Talbina Oats',
+        size: '300 g',
+        price: 2150,
+        ingredients: [
+          'Roasted Rolled Oats & Roasted Barley',
+          'Roasted Phool Makhana',
+          'Isabgol / Psyllium Husk',
+          'Chia Seeds',
+          'Roasted Ground Flax Seeds',
+          'Roasted Pumpkin Seeds',
+          'Chopped Soft Dates',
+          'Sesame Seeds',
+          'Roasted Crushed Almonds',
+          'Green Cardamom Powder',
+          'Fine Saunf / Fennel Powder'
+        ],
+        allergen: 'Contains tree nuts (almonds) and sesame. Produced in a facility that handles wheat/gluten.'
+      }
+    };
+
+    // Product quantity state on homepage cards
+    const currentSelections = {
+      bulkysips: {
+        size: '300 g',
+        price: 2500,
+        qty: 1
+      },
+      talbina: {
+        size: '300 g',
+        price: 2150,
+        qty: 1
+      }
+    };
+
+    // Current product for WhatsApp Question modal
+    let activeWhatsAppProduct = 'bulkysips';
+
+    // --- 2. SHOPPING CART STATE & PERSISTENCE ---
+    let cart = [];
+
+    function loadCart() {
+      try {
+        const saved = localStorage.getItem('arosmines_cart');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed)) {
+            cart = parsed.map(item => {
+              if (item.productId === 'bulkysips' || item.key === 'bulkysips_300g') {
+                return { ...item, productId: 'bulkysips', name: 'Bulky Sips', fullName: 'Bulky Sips (300 g)', size: '300 g', unitPrice: 2500 };
+              } else if (item.productId === 'talbina' || item.key === 'talbina_300g') {
+                return { ...item, productId: 'talbina', name: 'Talbina Oats', fullName: 'Talbina Oats (300 g)', size: '300 g', unitPrice: 2150 };
+              }
+              return item;
+            });
+          }
+        }
+      } catch (e) {
+        console.error('Could not load cart:', e);
+        cart = [];
+      }
+      saveCart();
+      renderCart();
+    }
+
+    function saveCart() {
+      try {
+        localStorage.setItem('arosmines_cart', JSON.stringify(cart));
+      } catch (e) {
+        console.error('Could not save cart:', e);
+      }
+      renderCart();
+    }
+
+    // --- 3. HOMEPAGE QUANTITY CONTROLS ---
+    function changeProductQty(productId, delta) {
+      let current = currentSelections[productId].qty + delta;
+      if (current < 1) current = 1;
+      if (current > 50) current = 50;
+      currentSelections[productId].qty = current;
+      const display = document.getElementById(`${productId}QtyDisplay`);
+      if (display) display.textContent = current;
+    }
+
+    // --- 4. CART OPERATIONS ---
+    function addProductToCart(productId) {
+      const selection = currentSelections[productId];
+      const product = PRODUCTS[productId];
+      const itemKey = `${productId}_300g`;
+
+      const existingIndex = cart.findIndex(item => item.key === itemKey);
+      if (existingIndex > -1) {
+        cart[existingIndex].qty += selection.qty;
+      } else {
+        cart.push({
+          key: itemKey,
+          productId: productId,
+          name: product.shortName,
+          fullName: product.name,
+          size: '300 g',
+          unitPrice: product.price,
+          qty: selection.qty
+        });
+      }
+
+      saveCart();
+      showToast(`Added ${selection.qty}x ${product.shortName} (300 g) to cart`);
+      openCartDrawer();
+    }
+
+    function updateCartItemQty(key, delta) {
+      const index = cart.findIndex(item => item.key === key);
+      if (index === -1) return;
+
+      const newQty = cart[index].qty + delta;
+      if (newQty <= 0) {
+        removeCartItem(key);
+      } else {
+        cart[index].qty = newQty;
+        saveCart();
+      }
+    }
+
+    function removeCartItem(key) {
+      cart = cart.filter(item => item.key !== key);
+      saveCart();
+      showToast('Item removed from cart');
+    }
+
+    // --- 5. SHIPPING & TOTALS CALCULATION ---
+    // Shipping rules:
+    // Subtotal < 5000: Rs. 250
+    // Subtotal >= 5000: FREE
+    function calculateTotals() {
+      const subtotal = cart.reduce((acc, item) => acc + (item.unitPrice * item.qty), 0);
+      const totalUnits = cart.reduce((acc, item) => acc + item.qty, 0);
+      
+      let shipping = 0;
+      if (subtotal > 0) {
+        shipping = subtotal >= 5000 ? 0 : 250;
+      }
+      
+      const grandTotal = subtotal + shipping;
+      const freeShippingThreshold = 5000;
+      const amountNeededForFree = Math.max(0, freeShippingThreshold - subtotal);
+
+      return {
+        subtotal,
+        shipping,
+        grandTotal,
+        totalUnits,
+        amountNeededForFree,
+        isFreeShipping: subtotal >= 5000 && subtotal > 0
+      };
+    }
+
+    // --- 6. RENDER CART UI ---
+    function renderCart() {
+      const totals = calculateTotals();
+
+      const badgeCount = document.getElementById('cartBadgeCount');
+      const floatingCount = document.getElementById('floatingCartCount');
+      if (badgeCount) badgeCount.textContent = totals.totalUnits;
+      if (floatingCount) floatingCount.textContent = totals.totalUnits;
+
+      const headerTotal = document.getElementById('cartHeaderTotal');
+      const floatingTotal = document.getElementById('floatingCartTotal');
+      if (headerTotal) headerTotal.textContent = `Rs. ${totals.subtotal.toLocaleString()}`;
+      if (floatingTotal) floatingTotal.textContent = `Rs. ${totals.grandTotal.toLocaleString()}`;
+
+      const itemsCountText = document.getElementById('cartDrawerItemsCountText');
+      if (itemsCountText) {
+        itemsCountText.textContent = `${totals.totalUnits} ${totals.totalUnits === 1 ? 'pack' : 'packs'} in cart`;
+      }
+
+      const subtotalElem = document.getElementById('cartSubtotalDisplay');
+      const shippingElem = document.getElementById('cartShippingDisplay');
+      const shippingNote = document.getElementById('cartShippingNote');
+      const grandTotalElem = document.getElementById('cartGrandTotalDisplay');
+
+      if (subtotalElem) subtotalElem.textContent = `Rs. ${totals.subtotal.toLocaleString()}`;
+      if (shippingElem) {
+        if (totals.subtotal === 0) {
+          shippingElem.textContent = 'Rs. 0';
+        } else if (totals.isFreeShipping) {
+          shippingElem.innerHTML = '<span class="text-emerald-700 uppercase font-extrabold">FREE</span>';
+        } else {
+          shippingElem.textContent = 'Rs. 250';
+        }
+      }
+      if (shippingNote) {
+        shippingNote.textContent = totals.isFreeShipping ? '(Free delivery unlocked!)' : '(Rs. 250 below Rs. 5k)';
+      }
+      if (grandTotalElem) grandTotalElem.textContent = `Rs. ${totals.grandTotal.toLocaleString()}`;
+
+      const freeShippingText = document.getElementById('freeShippingBannerText');
+      const freeProgressBar = document.getElementById('freeShippingProgressBar');
+      if (freeShippingText && freeProgressBar) {
+        if (totals.subtotal === 0) {
+          freeShippingText.innerHTML = '<i data-lucide="truck" class="w-4 h-4 text-amber-700"></i><span>Add Rs. 5,000 more to unlock FREE DELIVERY!</span>';
+          freeProgressBar.style.width = '0%';
+        } else if (totals.isFreeShipping) {
+          freeShippingText.innerHTML = '<i data-lucide="sparkles" class="w-4 h-4 text-emerald-700"></i><span class="text-emerald-900 font-bold">🎉 Congratulations! Your delivery is FREE.</span>';
+          freeProgressBar.style.width = '100%';
+        } else {
+          const progressPercent = Math.min(100, Math.round((totals.subtotal / 5000) * 100));
+          freeShippingText.innerHTML = `<i data-lucide="truck" class="w-4 h-4 text-amber-700"></i><span>Add <strong>Rs. ${totals.amountNeededForFree.toLocaleString()}</strong> more to unlock <strong>FREE DELIVERY!</strong></span>`;
+          freeProgressBar.style.width = `${progressPercent}%`;
+        }
+      }
+
+      const emptyView = document.getElementById('emptyCartView');
+      const itemsContainer = document.getElementById('cartItemsList');
+      const footerSection = document.getElementById('cartFooterSection');
+
+      if (!itemsContainer || !emptyView || !footerSection) return;
+
+      if (cart.length === 0) {
+        emptyView.classList.remove('hidden');
+        itemsContainer.innerHTML = '';
+        footerSection.classList.add('opacity-50', 'pointer-events-none');
+      } else {
+        emptyView.classList.add('hidden');
+        footerSection.classList.remove('opacity-50', 'pointer-events-none');
+
+        let itemsHTML = '';
+        cart.forEach(item => {
+          const lineTotal = item.unitPrice * item.qty;
+          itemsHTML += `
+            <div class="bg-warm-50/90 rounded-2xl p-4 border border-stone-200 flex items-center justify-between gap-3 shadow-sm hover:shadow transition">
+              <div class="flex-grow">
+                <div class="flex items-center gap-2">
+                  <h4 class="font-heading font-extrabold text-sm text-emerald-950">${item.name}</h4>
+                  <span class="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-900 font-bold text-[11px]">${item.size}</span>
+                </div>
+                <div class="text-xs text-stone-500 mt-0.5">
+                  Unit: Rs. ${item.unitPrice.toLocaleString()} &bull; Total: <strong class="text-stone-900">Rs. ${lineTotal.toLocaleString()}</strong>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <div class="flex items-center rounded-lg bg-white border border-stone-300 p-0.5 shadow-xs">
+                  <button type="button" 
+                          onclick="updateCartItemQty('${item.key}', -1)"
+                          aria-label="Decrease quantity" 
+                          class="w-7 h-7 rounded flex items-center justify-center text-stone-600 hover:bg-stone-100 font-bold transition">
+                    <i data-lucide="minus" class="w-3.5 h-3.5"></i>
+                  </button>
+                  <span class="w-7 text-center font-extrabold text-stone-900 text-xs">${item.qty}</span>
+                  <button type="button" 
+                          onclick="updateCartItemQty('${item.key}', 1)"
+                          aria-label="Increase quantity" 
+                          class="w-7 h-7 rounded flex items-center justify-center text-stone-600 hover:bg-stone-100 font-bold transition">
+                    <i data-lucide="plus" class="w-3.5 h-3.5"></i>
+                  </button>
+                </div>
+
+                <button type="button" 
+                        onclick="removeCartItem('${item.key}')"
+                        aria-label="Remove item" 
+                        class="p-1.5 rounded-lg text-stone-400 hover:text-rose-600 hover:bg-rose-50 transition">
+                  <i data-lucide="trash-2" class="w-4 h-4"></i>
+                </button>
+              </div>
+            </div>
+          `;
+        });
+        itemsContainer.innerHTML = itemsHTML;
+      }
+
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    }
+
+    // --- 7. CART DRAWER OPEN / CLOSE ---
+    function openCartDrawer() {
+      const drawer = document.getElementById('cartDrawer');
+      const backdrop = document.getElementById('cartBackdrop');
+      const panel = document.getElementById('cartPanel');
+      if (!drawer || !backdrop || !panel) return;
+
+      drawer.classList.remove('hidden');
+      setTimeout(() => {
+        backdrop.classList.remove('opacity-0');
+        backdrop.classList.add('opacity-100');
+        panel.classList.remove('translate-x-full');
+        panel.classList.add('translate-x-0');
+      }, 10);
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeCartDrawer() {
+      const drawer = document.getElementById('cartDrawer');
+      const backdrop = document.getElementById('cartBackdrop');
+      const panel = document.getElementById('cartPanel');
+      if (!drawer || !backdrop || !panel) return;
+
+      backdrop.classList.remove('opacity-100');
+      backdrop.classList.add('opacity-0');
+      panel.classList.remove('translate-x-0');
+      panel.classList.add('translate-x-full');
+
+      setTimeout(() => {
+        drawer.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }, 350);
+    }
+
+    // --- 8. WHATSAPP 3-QUESTIONS MODAL LOGIC ---
+    function openWhatsAppQuestionModal(productKey) {
+      setWhatsAppActiveProduct(productKey || 'general');
+      const modal = document.getElementById('whatsAppQuestionModal');
+      if (modal) modal.classList.remove('hidden');
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function setWhatsAppActiveProduct(productKey) {
+      activeWhatsAppProduct = productKey || 'general';
+      const badge = document.getElementById('waModalProductBadge');
+      const tabBulky = document.getElementById('waTabBulky');
+      const tabTalbina = document.getElementById('waTabTalbina');
+      const tabGeneral = document.getElementById('waTabGeneral');
+
+      const activeClass = 'bg-white text-emerald-950 border border-stone-300 shadow-xs';
+      const inactiveClass = 'text-stone-600 hover:text-emerald-950';
+
+      [tabBulky, tabTalbina, tabGeneral].forEach(tab => {
+        if (tab) {
+          tab.className = tab.className.replace(/bg-white text-emerald-950 border border-stone-300 shadow-xs/g, '').trim();
+          if (!tab.className.includes('text-stone-600')) tab.className += ' text-stone-600';
+        }
+      });
+
+      if (activeWhatsAppProduct === 'bulkysips') {
+        if (badge) badge.innerHTML = '<span class="text-amber-800 font-bold">Bulky Sips (300 g)</span> &bull; <span class="font-extrabold text-emerald-900">Rs. 2,500</span>';
+        if (tabBulky) {
+          tabBulky.className = tabBulky.className.replace('text-stone-600', '').trim() + ' ' + activeClass;
+        }
+      } else if (activeWhatsAppProduct === 'talbina') {
+        if (badge) badge.innerHTML = '<span class="text-emerald-800 font-bold">Talbina Oats (300 g)</span> &bull; <span class="font-extrabold text-emerald-900">Rs. 2,150</span>';
+        if (tabTalbina) {
+          tabTalbina.className = tabTalbina.className.replace('text-stone-600', '').trim() + ' ' + activeClass;
+        }
+      } else {
+        if (badge) badge.innerHTML = '<span class="text-stone-800 font-bold">AROSMINES Organic Nutrition</span> &bull; <span class="text-stone-500">PD Khan</span>';
+        if (tabGeneral) {
+          tabGeneral.className = tabGeneral.className.replace('text-stone-600', '').trim() + ' ' + activeClass;
+        }
+      }
+    }
+
+    function closeWhatsAppQuestionModal() {
+      const modal = document.getElementById('whatsAppQuestionModal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function triggerWhatsAppQuestion(questionType) {
+      let productName = 'AROSMINES Organic Health Products';
+      let productDetails = '';
+      if (activeWhatsAppProduct === 'bulkysips') {
+        productName = 'Bulky Sips (300 g)';
+        productDetails = ' (Price: Rs. 2,500)';
+      } else if (activeWhatsAppProduct === 'talbina') {
+        productName = 'Talbina Oats (300 g)';
+        productDetails = ' (Price: Rs. 2,150)';
+      }
+
+      let message = '';
+      if (questionType === 'A') {
+        // Question A: I would like more information about the product.
+        message = 'Hello AROSMINES! I would like more information about the product: ' + productName + productDetails + '.';
+      } else if (questionType === 'B') {
+        // Question B: How can I place an order?
+        message = 'Hello AROSMINES! How can I place an order for ' + productName + productDetails + '? Please guide me on payment (Cash on Delivery or Bank Transfer) and delivery across Pakistan.';
+      } else if (questionType === 'C') {
+        // Question C: I would like to know more about the ingredients and benefits.
+        message = 'Hello AROSMINES! I would like to know more about the ingredients and benefits of ' + productName + '.';
+      }
+
+      const whatsappNumber = '923095916469';
+      const encodedMsg = encodeURIComponent(message);
+      const whatsappUrl = 'https://wa.me/' + whatsappNumber + '?text=' + encodedMsg;
+      closeWhatsAppQuestionModal();
+      try {
+        window.location.href = whatsappUrl;
+      } catch (e) {
+        window.open(whatsappUrl, '_blank');
+      }
+      showToast('Opening WhatsApp with your question...');
+    }
+
+    // --- 9. FULL CART CHECKOUT VIA WHATSAPP ---
+    function submitWhatsAppOrder() {
+      const errorDiv = document.getElementById('checkoutErrorMsg');
+      errorDiv.classList.add('hidden');
+
+      if (cart.length === 0) {
+        errorDiv.textContent = 'Please add at least one product to your cart before placing an order.';
+        errorDiv.classList.remove('hidden');
+        return;
+      }
+
+      const name = document.getElementById('custName').value.trim();
+      const mobile = document.getElementById('custMobile').value.trim();
+      const city = document.getElementById('custCity').value.trim();
+      const address = document.getElementById('custAddress').value.trim();
+      
+      const paymentRadio = document.querySelector('input[name="paymentMethod"]:checked');
+      const paymentMethod = paymentRadio ? paymentRadio.value : 'Cash on Delivery';
+
+      if (!name) {
+        errorDiv.textContent = 'Please provide your full name.';
+        errorDiv.classList.remove('hidden');
+        document.getElementById('custName').focus();
+        return;
+      }
+      if (!mobile) {
+        errorDiv.textContent = 'Please provide your WhatsApp / mobile phone number.';
+        errorDiv.classList.remove('hidden');
+        document.getElementById('custMobile').focus();
+        return;
+      }
+      if (!city) {
+        errorDiv.textContent = 'Please specify your delivery city.';
+        errorDiv.classList.remove('hidden');
+        document.getElementById('custCity').focus();
+        return;
+      }
+      if (!address) {
+        errorDiv.textContent = 'Please enter your complete delivery address.';
+        errorDiv.classList.remove('hidden');
+        document.getElementById('custAddress').focus();
+        return;
+      }
+
+      const totals = calculateTotals();
+
+      let itemsReceiptText = '';
+      cart.forEach((item, index) => {
+        const lineTotal = item.unitPrice * item.qty;
+        itemsReceiptText += `${index + 1}. ${item.name} — ${item.size}\n   Quantity: ${item.qty}\n   Unit Price: Rs. ${item.unitPrice.toLocaleString()}\n   Line Total: Rs. ${lineTotal.toLocaleString()}\n\n`;
+      });
+
+      const shippingText = totals.isFreeShipping ? 'FREE (Orders Rs. 5,000+)' : `Rs. ${totals.shipping.toLocaleString()}`;
+
+      let bankNote = '';
+      if (paymentMethod === 'Bank Transfer') {
+        bankNote = '\nNote: Bank Transfer requested. Please provide current bank account details for transfer.\n';
+      }
+
+      const orderMessage = `AROSMINES — NEW ORDER
+
+Customer Name: ${name}
+Mobile: ${mobile}
+City: ${city}
+Delivery Address: ${address}
+Payment Method: ${paymentMethod}
+
+ORDER ITEMS:
+
+${itemsReceiptText}Subtotal: Rs. ${totals.subtotal.toLocaleString()}
+Shipping: ${shippingText}
+Grand Total: Rs. ${totals.grandTotal.toLocaleString()}${bankNote}
+Thank you for choosing AROSMINES!`;
+
+      const whatsappNumber = '923095916469';
+      const encodedMsg = encodeURIComponent(orderMessage);
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMsg}`;
+
+      try {
+        window.location.href = whatsappUrl;
+      } catch (e) {
+        window.open(whatsappUrl, '_blank');
+      }
+
+      showToast('Opening WhatsApp with your order receipt...');
+    }
+
+    // --- 10. QUICK INQUIRY ---
+    function sendQuickInquiry() {
+      const textElem = document.getElementById('quickInquiryMessage');
+      const userText = textElem ? textElem.value.trim() : '';
+      const message = userText || "Hello AROSMINES! I would like to inquire about your Bulky Sips (300 g) and Talbina Oats (300 g) products.";
+      const whatsappUrl = `https://wa.me/923095916469?text=${encodeURIComponent(message)}`;
+      try {
+        window.location.href = whatsappUrl;
+      } catch (e) {
+        window.open(whatsappUrl, '_blank');
+      }
+    }
+
+    // --- 11. INGREDIENTS MODAL ---
+    function openIngredientsModal(productId) {
+      const product = PRODUCTS[productId];
+      if (!product) return;
+
+      const modal = document.getElementById('ingredientsModal');
+      const title = document.getElementById('modalProductTitle');
+      const badge = document.getElementById('modalProductBadge');
+      const content = document.getElementById('modalIngredientsContent');
+      const allergenBox = document.getElementById('modalAllergenBox');
+
+      if (title) title.textContent = product.name;
+      if (badge) badge.textContent = `${product.ingredients.length} Wholesome Ingredients`;
+
+      if (content) {
+        let listHtml = '<ol class="space-y-2 text-sm text-stone-700">';
+        product.ingredients.forEach((ing, i) => {
+          listHtml += `
+            <li class="flex items-start gap-2.5 p-2 rounded-lg bg-warm-50 border border-stone-200/60">
+              <span class="w-6 h-6 rounded-full bg-emerald-900 text-white font-bold text-xs flex items-center justify-center shrink-0">${i + 1}</span>
+              <span class="font-medium">${ing}</span>
+            </li>
+          `;
+        });
+        listHtml += '</ol>';
+        content.innerHTML = listHtml;
+      }
+
+      if (allergenBox) {
+        allergenBox.innerHTML = `
+          <strong class="font-bold block text-amber-950 mb-1 flex items-center gap-1.5">
+            <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-700"></i>
+            Allergen Information:
+          </strong>
+          <p>${product.allergen}</p>
+        `;
+      }
+
+      if (modal) modal.classList.remove('hidden');
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function closeIngredientsModal() {
+      const modal = document.getElementById('ingredientsModal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    // --- 12. TOAST NOTIFICATION ---
+    let toastTimeout = null;
+    function showToast(message) {
+      const toast = document.getElementById('toastNotification');
+      const msg = document.getElementById('toastMessage');
+      if (!toast || !msg) return;
+
+      msg.textContent = message;
+      toast.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+      }, 3000);
+    }
+
+    // --- 13. INITIALIZATION & EVENT LISTENERS ---
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+
+      const yearElem = document.getElementById('currentYear');
+      if (yearElem) {
+        yearElem.textContent = new Date().getFullYear();
+      }
+
+      loadCart();
+
+      const mobileBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const menuOpenIcon = document.getElementById('menuOpenIcon');
+      const menuCloseIcon = document.getElementById('menuCloseIcon');
+      if (mobileBtn && mobileMenu) {
+        mobileBtn.addEventListener('click', () => {
+          const isClosed = mobileMenu.classList.contains('hidden');
+          if (isClosed) {
+            mobileMenu.classList.remove('hidden');
+            if (menuOpenIcon) menuOpenIcon.classList.add('hidden');
+            if (menuCloseIcon) menuCloseIcon.classList.remove('hidden');
+          } else {
+            mobileMenu.classList.add('hidden');
+            if (menuOpenIcon) menuOpenIcon.classList.remove('hidden');
+            if (menuCloseIcon) menuCloseIcon.classList.add('hidden');
+          }
+        });
+
+        const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            if (menuOpenIcon) menuOpenIcon.classList.remove('hidden');
+            if (menuCloseIcon) menuCloseIcon.classList.add('hidden');
+          });
+        });
+      }
+
+      const headerCartBtn = document.getElementById('openCartBtn');
+      if (headerCartBtn) {
+        headerCartBtn.addEventListener('click', openCartDrawer);
+      }
+
+      const paymentRadios = document.querySelectorAll('input[name="paymentMethod"]');
+      const bankNotice = document.getElementById('bankTransferNotice');
+      paymentRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+          if (radio.value === 'Bank Transfer' && radio.checked) {
+            if (bankNotice) bankNotice.classList.remove('hidden');
+          } else {
+            if (bankNotice) bankNotice.classList.add('hidden');
+          }
+        });
+      });
+
+      const faqToggles = document.querySelectorAll('.faq-toggle');
+      faqToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+          const item = toggle.closest('.faq-item');
+          const content = item.querySelector('.faq-content');
+          const icon = toggle.querySelector('.faq-icon');
+          const isCurrentlyOpen = !content.classList.contains('hidden');
+
+          document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+          document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
+
+          if (!isCurrentlyOpen) {
+            content.classList.remove('hidden');
+            if (icon) icon.classList.add('rotate-180');
+          }
+        });
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeCartDrawer();
+          closeIngredientsModal();
+          closeWhatsAppQuestionModal();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
